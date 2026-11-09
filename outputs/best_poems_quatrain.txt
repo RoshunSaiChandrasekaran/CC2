@@ -1,0 +1,22 @@
+[quatrain #1]  theme: see  scheme: ABCB
+
+Long in the silent thought he stood
+The hand or bends with friends;
+The forests of eyes that vainly
+The leaves off work or bends.
+
+rhyme=1.00  syllable=1.00  meter=0.94  typicality=1.00  syntax=0.99  cohesion=0.23  fluency=1.00  novelty=0.71  quality=0.84  fitness=0.74
+
+------------------------------------------------------------
+
+[quatrain #2]  theme: tell  scheme: ABAB
+
+In the silence of a frog,
+The night morning glad I love,
+Come to an admiring bog,
+What the road wind up above.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.27  fluency=1.00  novelty=0.47  quality=0.85  fitness=0.67
+
+------------------------------------------------------------
+

@@ -1,0 +1,30 @@
+[free_verse #1]  theme: every  scheme: -
+
+And dark is a continual miracle,
+Every square yard of space is kingly thousands at grievances foregone
+Every square yard of space,
+And sick,
+And delves the tulgey wood
+When the surface of the horizon,
+Or birds sang,
+I sing the nation's freight handler.
+
+typicality=1.00  syntax=0.94  cohesion=0.79  fluency=0.97  novelty=0.37  quality=0.94  fitness=0.70
+
+------------------------------------------------------------
+
+[free_verse #2]  theme: more  scheme: -
+
+Yet never saw below many devils
+And summer's day
+The delicious singing what good amid these with the foolish;
+I saw below many devils,
+The delicious singing of nothing else but love more fair
+Ere half turn to the universe;
+I saw below many warm
+And delves the wordless.
+
+typicality=1.00  syntax=0.96  cohesion=0.29  fluency=0.98  novelty=0.55  quality=0.82  fitness=0.67
+
+------------------------------------------------------------
+

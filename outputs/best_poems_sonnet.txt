@@ -1,0 +1,48 @@
+[sonnet #1]  theme: bed  scheme: ABABCDCDEFEFGG
+
+My maker and nothing stands but thy free,
+The speaking silence of myself and curse,
+I nor shall but love is death bed and see
+And I love thee with smiles tears of a verse.
+
+For thy sweet love alters when a new pay
+And time doth now his way in the slow dark,
+And nothing else but love that time of day,
+And when to every wandering bark?
+
+I have seen roses see I most enjoy
+And glittering in the soul who could twist,
+I sigh the bed and does thy life destroy,
+The boatman singing what shall I exist?
+
+I love I sitting heard the nation's freight,
+I love as the death bed at heaven's gate.
+
+rhyme=1.00  syllable=1.00  meter=0.94  typicality=0.94  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.56  quality=0.98  fitness=0.81
+
+------------------------------------------------------------
+
+[sonnet #2]  theme: more  scheme: ABABCDCDEFEFGG
+
+And gimble in these thoughts myself and curse,
+I travell'd in the main of pure serene,
+In its soft fall and nothing like a verse,
+The hand or gazing on the objects mean!
+
+Or like the sun more hold me less forlorn
+The eye of heaven with my soul more bent
+Like to the moon and bound his wreathed horn,
+I like the sun and candle light is spent.
+
+And saw I never felt I like to one
+And so long lives this city of one more
+Or hear old griefs and nothing like the sun,
+I like to the night when the pebbled shore.
+
+I love thee and carousing in the breath
+That fair thou must leave ere half turn to death.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.82  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.53  quality=0.96  fitness=0.78
+
+------------------------------------------------------------
+
