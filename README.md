@@ -1,4 +1,4 @@
-# Poem Generator (Computational Creativity, LIACS)
+# Poem Generator 
 
 A Python poem generator for three forms: **quatrain**, **Shakespearean sonnet** (ABAB CDCD EFEF GG, iambic
 pentameter) and **free verse**. Method: **word-level Markov chains + rhyme/meter constraints + generate-and-rank**.
