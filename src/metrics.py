@@ -21,7 +21,7 @@ import statistics
 from typing import Dict, List, Optional
 
 from lm import Associations, Corpus, MarkovModel, NgramLM, Poem, STOPWORDS, BOS
-from phonetics import (best_meter_fit, is_rhyme, line_syllables, meter_fit,
+from phonetics import (is_rhyme, line_syllables, meter_fit,
                        meter_template, tokenize)
 
 SONNET_SCHEME = "ABABCDCDEFEFGG"

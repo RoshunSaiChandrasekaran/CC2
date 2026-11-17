@@ -23,8 +23,8 @@ from typing import Dict, List, Optional, Tuple
 
 from lm import Associations, Corpus, MarkovModel, Poem, BOS, EOS, STOPWORDS
 from metrics import Evaluator, SONNET_BREAKS, SONNET_SCHEME, clip
-from phonetics import (is_rhyme, line_syllables, meter_fit, meter_template,
-                       rhyme_key, in_dictionary, syllables, best_meter_fit)
+from phonetics import (is_rhyme, meter_fit, meter_template,
+                       rhyme_key, in_dictionary, syllables)
 
 QUATRAIN_PATTERNS = [            # (syllables per line, meter kind, weight)
     ((8, 6, 8, 6), "iambic", 0.40),      # common / ballad metre (Dickinson, hymns)
