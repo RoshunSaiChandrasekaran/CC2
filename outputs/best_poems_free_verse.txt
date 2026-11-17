@@ -1,30 +1,30 @@
-[free_verse #1]  theme: every  scheme: -
+[free_verse #1]  theme: god  scheme: -
 
-And dark is a continual miracle,
-Every square yard of space is kingly thousands at grievances foregone
-Every square yard of space,
-And sick,
-And delves the tulgey wood
-When the surface of the horizon,
-Or birds sang,
-I sing the nation's freight handler.
+And the passion put away,
+And sweetest in the lecture room;
+The day erased the nation's freight handler
+When the day callooh callay,
+The carpenter singing his ken
+Or the lamb god bless thee,
+The little bird,
+Round and ran on little light denied.
 
-typicality=1.00  syntax=0.94  cohesion=0.79  fluency=0.97  novelty=0.37  quality=0.94  fitness=0.70
+typicality=1.00  syntax=0.97  cohesion=1.00  fluency=0.98  novelty=0.48  quality=0.99  fitness=0.79
 
 ------------------------------------------------------------
 
-[free_verse #2]  theme: more  scheme: -
+[free_verse #2]  theme: down  scheme: -
 
-Yet never saw below many devils
-And summer's day
-The delicious singing what good amid these with the foolish;
-I saw below many devils,
-The delicious singing of nothing else but love more fair
-Ere half turn to the universe;
-I saw below many warm
-And delves the wordless.
+Till it stood isolated,
+How soon unaccountable I never saw below many devils,
+Till the waves the new planet swims into the livelong day,
+Till the stars;
+And the little bird,
+When he nothing like the sun,
+When the lecture room
+And down on the ground.
 
-typicality=1.00  syntax=0.96  cohesion=0.29  fluency=0.98  novelty=0.55  quality=0.82  fitness=0.67
+typicality=1.00  syntax=0.87  cohesion=0.61  fluency=0.94  novelty=0.54  quality=0.88  fitness=0.72
 
 ------------------------------------------------------------
 

@@ -24,7 +24,7 @@ def fmt_metrics(m):
 def main():
     here = os.path.dirname(__file__)
     ap = argparse.ArgumentParser(description="Markov-chain poem generator with rhyme/meter constraints")
-    ap.add_argument("--data", default=os.path.join(here, "..", "data", "inspiring_set.json"))
+    ap.add_argument("--data", default=os.path.join(here, "..", "inspiring_set.json"))
     ap.add_argument("--category", default="all", choices=CATS + ["all"])
     ap.add_argument("--theme", default=None, help="a word from the corpus, e.g. night, love, sea")
     ap.add_argument("--top", type=int, default=3, help="poems to keep after ranking")

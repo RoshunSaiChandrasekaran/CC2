@@ -1,48 +1,48 @@
-[sonnet #1]  theme: bed  scheme: ABABCDCDEFEFGG
+[sonnet #1]  theme: death  scheme: ABABCDCDEFEFGG
 
-My maker and nothing stands but thy free,
-The speaking silence of myself and curse,
-I nor shall but love is death bed and see
-And I love thee with smiles tears of a verse.
+I never writ nor shall death bed and see,
+I never did he star'd at heaven's gate;
+A goddess go up in the soul thy free,
+As they serve therewith my outcast state.
 
-For thy sweet love alters when a new pay
-And time doth now his way in the slow dark,
-And nothing else but love that time of day,
-And when to every wandering bark?
+And all my life to serve who only stand,
+I new pay as he stands but a far more;
+In the remover to tell o'er land
+When in the speaking silence at that door?
 
-I have seen roses see I most enjoy
-And glittering in the soul who could twist,
-I sigh the bed and does thy life destroy,
-The boatman singing what shall I exist?
+I sing the parallels in what the breath,
+The hatter singing his dark secret love,
+The ships with a pagan suckled in death,
+The star to love I summon up above.
 
-I love I sitting heard the nation's freight,
-I love as the death bed at heaven's gate.
+Till I love to the lark at all hours,
+To change my dear time's waste our powers.
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=0.94  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.56  quality=0.98  fitness=0.81
+rhyme=1.00  syllable=1.00  meter=0.94  typicality=1.00  syntax=1.00  cohesion=0.76  fluency=1.00  novelty=0.62  quality=0.95  fitness=0.80
 
 ------------------------------------------------------------
 
-[sonnet #2]  theme: more  scheme: ABABCDCDEFEFGG
+[sonnet #2]  theme: time  scheme: ABABCDCDEFEFGG
 
-And gimble in these thoughts myself and curse,
-I travell'd in the main of pure serene,
-In its soft fall and nothing like a verse,
-The hand or gazing on the objects mean!
+And yet come with old woes new moon in spring
+The hatter singing as the lark at break;
+To the fields and glittering in a swing
+The other wayfarers at night doth take.
 
-Or like the sun more hold me less forlorn
-The eye of heaven with my soul more bent
-Like to the moon and bound his wreathed horn,
-I like the sun and candle light is spent.
+The eye unused to love that well I know
+The plodding and corruption leave ere long,
+That which goes on the eye unused to flow,
+The whole long day with any one more strong?
 
-And saw I never felt I like to one
-And so long lives this city of one more
-Or hear old griefs and nothing like the sun,
-I like to the night when the pebbled shore.
+We see I mark'd where on his glory fight,
+And the parallels in a sweet unrest,
+I love is the thing to show more delight
+My fair love's long time doth transfix the west.
 
-I love thee and carousing in the breath
-That fair thou must leave ere half turn to death.
+That time of pure ablution round they sped
+And that time of the world is far more red?
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.82  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.53  quality=0.96  fitness=0.78
+rhyme=1.00  syllable=1.00  meter=0.97  typicality=1.00  syntax=1.00  cohesion=0.79  fluency=1.00  novelty=0.49  quality=0.95  fitness=0.76
 
 ------------------------------------------------------------
 
