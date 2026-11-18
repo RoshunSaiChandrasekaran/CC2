@@ -20,9 +20,10 @@ import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from generator import GenConfig, PoemGenerator            # noqa: E402
+from generator import PoemGenerator            # noqa: E402
 from lm import Associations, Corpus                       # noqa: E402
 from metrics import Evaluator                             # noqa: E402
+from planner import make_plan 
 
 CATS = ["quatrain", "sonnet", "free_verse"]
 DIMS = ["fluency", "coherence", "sound_and_form", "overall"]
@@ -41,7 +42,7 @@ def make(a):
         for u in rng.sample(ev.ref_units, min(a.n, len(ev.ref_units))):
             items.append((cat, "real", u))
         for _ in range(a.n):
-            items.append((cat, "baseline", g.baseline_poem()))
+            items.append((cat, "baseline", g.baseline_poem(make_plan(rng, assoc, "short", cat))))
         for _ in range(a.n):
             (p, _m), = g.generate(top_k=1)
             items.append((cat, "full", p))

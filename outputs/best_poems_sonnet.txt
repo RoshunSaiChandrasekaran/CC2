@@ -1,48 +1,75 @@
-[sonnet #1]  theme: death  scheme: ABABCDCDEFEFGG
+[sonnet #1]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
 
-I never writ nor shall death bed and see,
-I never did he star'd at heaven's gate;
-A goddess go up in the soul thy free,
-As they serve therewith my outcast state.
+And time that music hath a sordid boon,
+And time thou mayst in the winds do contend,
+And nothing like the sun and delves the moon,
+Like as the flourish set on thee dear friend.
 
-And all my life to serve who only stand,
-I new pay as he stands but a far more;
-In the remover to tell o'er land
-When in the speaking silence at that door?
+Sun and watching with any she belied,
+Sun and time that gave thee clothing wooly,
+Bright and useless though cold in death to hide
+And all bright and time that gave thee fully.
 
-I sing the parallels in what the breath,
-The hatter singing his dark secret love,
-The ships with a pagan suckled in death,
-The star to love I summon up above.
+Eye of the little lamb who could caper
+And you should remember me count the ways
+For when the blazing sun and brown paper,
+The hive of a thing I half turn from praise.
 
-Till I love to the lark at all hours,
-To change my dear time's waste our powers.
+I love that well which makes thy worth despite
+When I see I in death's dateless night.
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=1.00  syntax=1.00  cohesion=0.76  fluency=1.00  novelty=0.62  quality=0.95  fitness=0.80
+rhyme=1.00  syllable=1.00  meter=0.88  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.56  quality=0.98  fitness=0.81
 
 ------------------------------------------------------------
 
-[sonnet #2]  theme: time  scheme: ABABCDCDEFEFGG
+[sonnet #2]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
 
-And yet come with old woes new moon in spring
-The hatter singing as the lark at break;
-To the fields and glittering in a swing
-The other wayfarers at night doth take.
+That time of that fair love's ripening breast,
+Long time the school where late the morning glad,
+Account of that time doth transfix the rest
+Time of being and diagrams to add.
 
-The eye unused to love that well I know
-The plodding and corruption leave ere long,
-That which goes on the eye unused to flow,
-The whole long day with any one more strong?
+Or of the exquisite delicate thin
+The night air and time that on the new pay,
+One and all bright and carousing in sin,
+Tune without rest one and spending we lay!
 
-We see I mark'd where on his glory fight,
-And the parallels in a sweet unrest,
-I love is the thing to show more delight
-My fair love's long time doth transfix the west.
+I love how public like a garment wear
+I love alters not my wrath did he knew,
+A love I fondly ask but when a pair,
+Love I grant I shall find the realms of true.
 
-That time of pure ablution round they sped
-And that time of the world is far more red?
+I love alters not any thing I sought
+In the eye of the morning silent thought.
 
-rhyme=1.00  syllable=1.00  meter=0.97  typicality=1.00  syntax=1.00  cohesion=0.79  fluency=1.00  novelty=0.49  quality=0.95  fitness=0.76
+rhyme=1.00  syllable=1.00  meter=0.87  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.56  quality=0.98  fitness=0.81
+
+------------------------------------------------------------
+
+[sonnet #3]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
+
+Have to feel for ever in beauty's brow,
+Still to bed by day labour light is heard,
+Doth take the whole long lives this city now,
+That which by and time of the little bird.
+
+If the sweet birds or of fore bemoaned moan,
+The realms of thy love more red and present;
+Art and that one I love to hear the grown,
+When to feel for pulse breath for this pleasant!
+
+I never did sun more rich in the air,
+Love thee let me O no such roses see,
+The day at night morning with false compare;
+The lack of day what wings dare frame thy free.
+
+The day's journey take away from my love,
+And with a love I summon up above.
+
+rhyme=1.00  syllable=1.00  meter=0.90  typicality=0.97  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.56  quality=0.98  fitness=0.81
 
 ------------------------------------------------------------
 

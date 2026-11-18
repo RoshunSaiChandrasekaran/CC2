@@ -1,22 +1,51 @@
-[quatrain #1]  theme: tell  scheme: ABCB
+[quatrain #1]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
 
-That perches in the little lamb,
-When the livelong day;
-The day and carousing in sin
-And what the other way.
+The leaves off work or watch honey,
+And trees and dress by chance,
+The deckhand singing as he makes
+The roof so wide expanse.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.45  fluency=1.00  novelty=0.58  quality=0.89  fitness=0.74
+And I summon up in the ends
+The whole long time to beat,
+Bright and time that gave thee dear friend,
+The air so do contend.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.12  fluency=1.00  novelty=0.74  quality=0.82  fitness=0.74
 
 ------------------------------------------------------------
 
-[quatrain #2]  theme: hand  scheme: AABC
+[quatrain #2]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
 
-The hand what the little bird
-I could twist the gale is heard,
-Vorpal sword in hand or eye,
-The hand dare frame thy fearful.
+I nor shall I meet other way,
+The manxome foe he took his men
+And yet come in the whole long day,
+Come with my very life again.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=0.90  cohesion=0.48  fluency=0.93  novelty=0.47  quality=0.88  fitness=0.69
+And city of the night a stream;
+The other wayfarers at night,
+In the hive of love of finished
+The wind up in the night a sight.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=0.97  cohesion=0.45  fluency=0.98  novelty=0.56  quality=0.89  fitness=0.73
+
+------------------------------------------------------------
+
+[quatrain #3]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
+
+And dark secret love that well,
+For a little lamb I'll tell
+In the waves the ships at noon,
+I get up in a new moon?
+
+I half turn to night sleep death,
+Night a tender taken breath;
+The hand or call when feeling;
+The eye of the big shoulders.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.31  fluency=1.00  novelty=0.59  quality=0.86  fitness=0.72
 
 ------------------------------------------------------------
 

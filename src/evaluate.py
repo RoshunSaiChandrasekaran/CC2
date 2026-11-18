@@ -13,9 +13,11 @@ Writes outputs/evaluation_summary.md, evaluation_poems.csv, evaluation_profile.p
 import argparse
 import csv
 import os
+import random
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
+from planner import make_plan
 import matplotlib                                          # noqa: E402
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt                            # noqa: E402
@@ -31,28 +33,32 @@ COND = ["real", "baseline", "constrained", "full"]
 COLORS = {"real": "#7a7a7a", "baseline": "#c9a227", "constrained": "#3b7dd8", "full": "#1f9d6b"}
 
 
+def first_valid(g, plan, tries=50):
+    for _ in range(tries):
+        p = g.generate_poem(plan)
+        if p is not None:
+            return p
+    raise RuntimeError("plan could not be realised")
+
+
 def run_category(corpus, assoc, cat, n, pool, seed):
     ev = Evaluator(corpus, cat, assoc)
-    data = {}
-    real = ev.ref_units
-    data["real"] = (real, [ev.evaluate(u, with_novelty=False) for u in real])
+    rng = random.Random(seed)
+    plans = [make_plan(rng, assoc, "short", cat) for _ in range(n)]
+    data = {"real": (ev.ref_units, [ev.evaluate(u, with_novelty=False) for u in ev.ref_units])}
 
     g = PoemGenerator(corpus, cat, GenConfig(), seed=seed, evaluator=ev)
-    base = [g.baseline_poem() for _ in range(n)]
+    base = [g.baseline_poem(pl) for pl in plans]
     data["baseline"] = (base, [ev.evaluate(p) for p in base])
 
     g = PoemGenerator(corpus, cat, GenConfig(line_pool=1), seed=seed + 1, evaluator=ev)
-    cons = []
-    while len(cons) < n:
-        p = g.generate_poem()
-        if p is not None:
-            cons.append(p)
+    cons = [first_valid(g, pl) for pl in plans]
     data["constrained"] = (cons, [ev.evaluate(p) for p in cons])
 
     g = PoemGenerator(corpus, cat, GenConfig(), seed=seed + 2, evaluator=ev)
     full, fm = [], []
-    for _ in range(n):
-        (p, m), = g.generate(top_k=1, pool=pool)
+    for pl in plans:
+        (p, m), = g.generate(top_k=1, plan=pl, pool=pool)
         full.append(p)
         fm.append(m)
     data["full"] = (full, fm)
