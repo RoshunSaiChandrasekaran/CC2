@@ -96,10 +96,10 @@ class PoemGenerator:
         ev, a = self.evaluator, self.assoc
         content = [w for w in tl if w not in STOPWORDS]
         theme = sum(w in boost for w in content) / len(content) if content else 0.0
-        score = (0.25 * ev.line_typicality(tl) + 0.30 * ev.syntax_score([tl])
+        score = (0.15 * ev.line_typicality(tl) + 0.30 * ev.syntax_score([tl])
                  + 0.10 * clip(self.model.start_p(tl[0]) * 40) + 0.10 * theme)
         if prev:                                   # STEP 2: does this line follow the previous one?
-            score += 0.20 * clip(a.cosine(a.line_vector(tl), a.line_vector(prev)) / ev.coh_ref)
+            score += 0.35 * clip(a.cosine(a.line_vector(tl), a.line_vector(prev)) / ev.coh_ref)
         if template is not None:
             score += 0.25 * meter_fit(tl, template)
         elif target_len:
