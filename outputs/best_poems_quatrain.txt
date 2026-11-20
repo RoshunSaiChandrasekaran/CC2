@@ -1,22 +1,51 @@
-[quatrain #1]  theme: see  scheme: ABCB
+[quatrain #1]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
 
-Long in the silent thought he stood
-The hand or bends with friends;
-The forests of eyes that vainly
-The leaves off work or bends.
+And dark secret love that well,
+And more red than that you tell
+In the waves the ships at noon,
+I get up in a new moon?
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=1.00  syntax=0.99  cohesion=0.23  fluency=1.00  novelty=0.71  quality=0.84  fitness=0.74
+I half turn to night sleep death,
+Night a tender taken breath;
+The hand or call when feeling;
+The eye of the big shoulders.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.32  fluency=1.00  novelty=0.64  quality=0.80  fitness=0.68  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[quatrain #2]  theme: tell  scheme: ABAB
+[quatrain #2]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
 
-In the silence of a frog,
-The night morning glad I love,
-Come to an admiring bog,
-What the road wind up above.
+The road wind up jack and jill,
+He went up in the birds still,
+Up in the wind is passing
+The wind is the thing I sought.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.27  fluency=1.00  novelty=0.47  quality=0.85  fitness=0.67
+And when in the whole long day,
+Night my lost saints I new pay
+Up at night a resting place,
+And night morning with my face.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.88  syntax=1.00  cohesion=0.54  fluency=1.00  novelty=0.49  quality=0.84  fitness=0.67  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[quatrain #3]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
+
+The whole referring yet if hairs
+And yet come back in tears
+Who come back to the universe,
+And with soft fall and through.
+
+The stars threw down on the slow dark,
+The night morning or eye;
+Or of the night air so rested
+Air and over the sky.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=0.91  cohesion=0.36  fluency=0.95  novelty=0.59  quality=0.80  fitness=0.67  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 

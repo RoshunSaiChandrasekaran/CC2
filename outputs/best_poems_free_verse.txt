@@ -1,30 +1,60 @@
-[free_verse #1]  theme: every  scheme: -
+[free_verse #1]  idea: Being oneself is hard when several selves compete for the name.
+  moods: melancholic, surreal, classical
 
-And dark is a continual miracle,
-Every square yard of space is kingly thousands at grievances foregone
-Every square yard of space,
-And sick,
-And delves the tulgey wood
-When the surface of the horizon,
-Or birds sang,
-I sing the nation's freight handler.
+When I wonder what dread feet,
+When the night a lamb I'll tell thee
+To tell your name,
+Little lamb god doth take away.
 
-typicality=1.00  syntax=0.94  cohesion=0.79  fluency=0.97  novelty=0.37  quality=0.94  fitness=0.70
+A pagan suckled in the silence of a summer forenoon
+Come to my wrath did grow
+In the silence of a dream,
+Night air and down.
+
+Come to apollo hold;
+Come to the universe!
+
+typicality=1.00  syntax=0.56  cohesion=1.00  fluency=0.78  novelty=0.39  quality=0.92  fitness=0.70  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[free_verse #2]  theme: more  scheme: -
+[free_verse #2]  idea: Being oneself is hard when several selves compete for the name.
+  moods: melancholic, surreal, classical
 
-Yet never saw below many devils
-And summer's day
-The delicious singing what good amid these with the foolish;
-I saw below many devils,
-The delicious singing of nothing else but love more fair
-Ere half turn to the universe;
-I saw below many warm
-And delves the wordless.
+And many devils,
+And moan the fog comes,
+And sordid boon,
+The morning silent bare?
 
-typicality=1.00  syntax=0.96  cohesion=0.29  fluency=0.98  novelty=0.55  quality=0.82  fitness=0.67
+Of the morning or at sundown,
+In the silence at the charts and in its soft rounded cheeks and measure them
+Thou art sick;
+Burnt the fire of eyes that swim the rest.
+
+Either man's art more faithless,
+Night sleep death and sick.
+
+typicality=1.00  syntax=0.79  cohesion=0.70  fluency=0.89  novelty=0.54  quality=0.84  fitness=0.69  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #3]  idea: Being oneself is hard when several selves compete for the name.
+  moods: melancholic, surreal, classical
+
+Till the objects mean of itself,
+I love more strong,
+Like stout cortez when no more day,
+The question O me O my soul more bent.
+
+Of eyes of flame,
+When the leaves off by myself
+The sky is spread with the shoemaker singing the world,
+And sordid crowds I said comrade brother.
+
+In the man said to the mason singing his way in the day's,
+Of gold complexion dimm'd.
+
+typicality=1.00  syntax=0.77  cohesion=0.79  fluency=0.88  novelty=0.44  quality=0.87  fitness=0.68  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
