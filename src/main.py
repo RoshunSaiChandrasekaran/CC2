@@ -14,7 +14,7 @@ from metrics import Evaluator                             # noqa: E402
 
 CATS = ["quatrain", "sonnet", "free_verse"]
 SHOW = ["rhyme", "syllable", "meter", "typicality", "syntax", "cohesion", "fluency",
-        "novelty", "quality", "fitness"]
+        "novelty", "quality", "fitness", "checks_passed", "stop_ok"]
 
 
 def fmt_metrics(m):

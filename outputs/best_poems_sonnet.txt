@@ -1,6 +1,31 @@
 [sonnet #1]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, self-deprecating, cosmic
 
+That time of every day's journey take,
+Up in death's second self that time that deep,
+And that time doth transfix the lark at break
+Eternal lines to time that will not keep.
+
+Be error and time that life and if snow,
+I never did he took his gift confound
+By heaven I love thee dear time's fool though
+Or hear the world is raining all around.
+
+I love that which I accosted the man,
+Love as thou must leave ere half turn from praise
+The sun and all are to the depth and ran,
+And soon replies god doth transfix the ways.
+
+That on the roof so much to the twilight,
+Or gazing on the whole long as sunlight.
+
+rhyme=1.00  syllable=1.00  meter=0.96  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.57  quality=0.99  fitness=0.82  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #2]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
+
 And time that music hath a sordid boon,
 And time thou mayst in the winds do contend,
 And nothing like the sun and delves the moon,
@@ -8,22 +33,22 @@ Like as the flourish set on thee dear friend.
 
 Sun and watching with any she belied,
 Sun and time that gave thee clothing wooly,
-Bright and useless though cold in death to hide
-And all bright and time that gave thee fully.
+And by sun and his dark is death to hide
+The winds that well I think on thee fully.
 
-Eye of the little lamb who could caper
-And you should remember me count the ways
-For when the blazing sun and brown paper,
-The hive of a thing I half turn from praise.
+Life again though my soul who could caper
+With vinegar and yet come in the ways
+I love to hear old griefs and brown paper,
+And more lovely and round they turn from praise.
 
 I love that well which makes thy worth despite
-When I see I in death's dateless night.
+Love or at this man's art the day at night.
 
-rhyme=1.00  syllable=1.00  meter=0.88  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.56  quality=0.98  fitness=0.81
+rhyme=1.00  syllable=1.00  meter=0.88  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.58  quality=0.98  fitness=0.82  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[sonnet #2]  idea: Time is a creditor: we spend our days and still owe.
+[sonnet #3]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, self-deprecating, cosmic
 
 That time of that fair love's ripening breast,
@@ -33,43 +58,18 @@ Time of being and diagrams to add.
 
 Or of the exquisite delicate thin
 The night air and time that on the new pay,
-One and all bright and carousing in sin,
-Tune without rest one and spending we lay!
+And with old griefs and yet come back in sin,
+That seals up all bright and spending we lay!
 
-I love how public like a garment wear
-I love alters not my wrath did he knew,
-A love I fondly ask but when a pair,
-Love I grant I shall find the realms of true.
+At night doth take away a garment wear
+Bright and time of true account lest he knew,
+What dread hand or eye of many a pair,
+The night air and moan the marriage of true.
 
-I love alters not any thing I sought
-In the eye of the morning silent thought.
+The air I have seen roses see I sought
+The speaking silence of sweet silent thought.
 
-rhyme=1.00  syllable=1.00  meter=0.87  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.56  quality=0.98  fitness=0.81
-
-------------------------------------------------------------
-
-[sonnet #3]  idea: Time is a creditor: we spend our days and still owe.
-  moods: detached, self-deprecating, cosmic
-
-Have to feel for ever in beauty's brow,
-Still to bed by day labour light is heard,
-Doth take the whole long lives this city now,
-That which by and time of the little bird.
-
-If the sweet birds or of fore bemoaned moan,
-The realms of thy love more red and present;
-Art and that one I love to hear the grown,
-When to feel for pulse breath for this pleasant!
-
-I never did sun more rich in the air,
-Love thee let me O no such roses see,
-The day at night morning with false compare;
-The lack of day what wings dare frame thy free.
-
-The day's journey take away from my love,
-And with a love I summon up above.
-
-rhyme=1.00  syllable=1.00  meter=0.90  typicality=0.97  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.56  quality=0.98  fitness=0.81
+rhyme=1.00  syllable=1.00  meter=0.89  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.53  quality=0.98  fitness=0.80  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 

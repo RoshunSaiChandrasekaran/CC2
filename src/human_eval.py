@@ -20,7 +20,7 @@ import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from generator import PoemGenerator            # noqa: E402
+from generator import PoemGenerator                       # noqa: E402
 from lm import Associations, Corpus                       # noqa: E402
 from metrics import Evaluator                             # noqa: E402
 from planner import make_plan 

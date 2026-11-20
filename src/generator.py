@@ -22,7 +22,7 @@ from lm import Associations, Corpus, MarkovModel, Poem, BOS, EOS, STOPWORDS
 from metrics import Evaluator, SONNET_BREAKS, SONNET_SCHEME, clip
 from phonetics import (in_dictionary, is_rhyme, meter_fit, meter_template, rhyme_key,
                        syllables, tokenize)
-from planner import Plan, make_plan, outline, role_boost
+from planner import Plan, make_plan, outline, role_boost, stop_check
 
 QUATRAIN_PATTERNS = [            # (syllables per line, meter kind, weight)
     ((8, 6, 8, 6), "iambic", 0.40),      # common / ballad metre (Dickinson, hymns)
@@ -303,17 +303,22 @@ class PoemGenerator:
 
     # --------------------------------------------- generate many, then rank
     def generate(self, top_k: int = 3, plan: Optional[Plan] = None, length: str = "short",
-                 pool: Optional[int] = None):
-        """One plan, `pool` poems that follow it, ranked; return the best `top_k` as (poem, metrics)."""
+                 pool: Optional[int] = None, rounds: int = 3):
+        """One plan; generate in rounds until `top_k` poems pass stop_check (or rounds run out)."""
         plan = plan or make_plan(self.rng, self.assoc, length, self.category)
-        pool = pool or self.cfg.poem_pool
-        scored, attempts = [], 0
-        while len(scored) < pool and attempts < pool * 5:
-            attempts += 1
-            p = self.generate_poem(plan)
-            if p is not None:
-                scored.append((p, self.evaluator.evaluate(p)))
-        scored.sort(key=lambda x: -x[1]["fitness"])
+        scored = []
+        for _ in range(rounds):
+            for _ in range(pool or self.cfg.poem_pool):
+                p = self.generate_poem(plan)
+                if p is None:
+                    continue
+                m = self.evaluator.evaluate(p)
+                checks = stop_check(p, plan, m)
+                m.update(checks_passed=sum(checks.values()), stop_ok=float(all(checks.values())))
+                scored.append((p, m))
+            if sum(m["stop_ok"] for _, m in scored) >= top_k:
+                break
+        scored.sort(key=lambda x: (-x[1]["stop_ok"], -x[1]["fitness"]))
         return scored[:top_k]
 
     # -------------------------------------------------------------- baseline

@@ -8,6 +8,9 @@ from __future__ import annotations
 import random
 from dataclasses import dataclass
 from typing import Dict, List, Optional
+from lm import STOPWORDS
+from metrics import DANGLING
+from phonetics import tokenize
 
 # Words not in the corpus are filtered out automatically (see `known`).
 PREMISES = [
@@ -88,3 +91,20 @@ def role_boost(plan: Plan, role: str, assoc) -> Dict[str, float]:
     for w in plan.imagery:                                # imagery stays on throughout
         boost[w] = max(boost.get(w, 1.0), 3.0)
     return boost
+
+
+def _content(lines):
+    return {w for l in lines for w in tokenize(l) if w not in STOPWORDS}
+
+
+def stop_check(poem, plan, m) -> Dict[str, bool]:
+    """A poem is finished only if all four checks pass."""
+    first, last = _content(poem.stanzas[0]), _content(poem.stanzas[-1])
+    plan_words = set(plan.theme) | set(plan.counter)
+    return dict(
+        length=len(poem.lines) == sum(plan.block_sizes()),
+        idea=len(_content(poem.lines) & plan_words) >= min(2, len(plan_words)),
+        ending=tokenize(poem.lines[-1])[-1] not in DANGLING
+        and len(first & last) / max(1, len(first | last)) < 0.5,
+        coherence=m["cohesion"] >= 0.3 and m["adjacent_repeats"] == 0,
+    )
