@@ -1,48 +1,75 @@
-[sonnet #1]  theme: bed  scheme: ABABCDCDEFEFGG
+[sonnet #1]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
 
-My maker and nothing stands but thy free,
-The speaking silence of myself and curse,
-I nor shall but love is death bed and see
-And I love thee with smiles tears of a verse.
+In these O frabjous day erased the breath,
+Sickle's compass come with soft fall and cheeks
+O my fair love's long as men strive for death
+And in the morning with my mistress reeks.
 
-For thy sweet love alters when a new pay
-And time doth now his way in the slow dark,
-And nothing else but love that time of day,
-And when to every wandering bark?
+To death bed whereon it was shown the charts,
+Did sun more fair sometime too bitter sweet,
+Sun and time that kept so do our hearts,
+And eyes as bright star to me in the street.
 
-I have seen roses see I most enjoy
-And glittering in the soul who could twist,
-I sigh the bed and does thy life destroy,
-The boatman singing what shall I exist?
+In the breath that seals up all bright and said,
+By heaven I love I sing the setting
+My fair love's not to love that which it dead,
+When in hope love that opening letting.
 
-I love I sitting heard the nation's freight,
-I love as the death bed at heaven's gate.
+That on the depth and sore must leave ere long;
+And on what wings dare frame thy love more strong.
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=0.94  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.56  quality=0.98  fitness=0.81
+rhyme=1.00  syllable=1.00  meter=0.93  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.60  quality=0.99  fitness=0.83  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[sonnet #2]  theme: more  scheme: ABABCDCDEFEFGG
+[sonnet #2]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
 
-And gimble in these thoughts myself and curse,
-I travell'd in the main of pure serene,
-In its soft fall and nothing like a verse,
-The hand or gazing on the objects mean!
+The world and delves the beauty of the skies,
+And with a calm so long as his demesne,
+From fair love's long lives this and time that flies,
+Time of being and sweetest in the main.
 
-Or like the sun more hold me less forlorn
-The eye of heaven with my soul more bent
-Like to the moon and bound his wreathed horn,
-I like the sun and candle light is spent.
+I sing the while I think my soul thy free,
+Till I mark'd how dreary to be taken
+The pacific and all my soul can see
+The sky is meek he is never shaken.
 
-And saw I never felt I like to one
-And so long lives this city of one more
-Or hear old griefs and nothing like the sun,
-I like to the night when the pebbled shore.
+Or sleep in winter I think my true minds,
+Art more red and white why then can I drown,
+The bed whereon it alteration finds,
+And in death's dateless night air and down.
 
-I love thee and carousing in the breath
-That fair thou must leave ere half turn to death.
+Doth take the setting sun and candle light
+And by day at night sleep in summer quite!
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.82  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.53  quality=0.96  fitness=0.78
+rhyme=1.00  syllable=1.00  meter=0.91  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.57  quality=0.99  fitness=0.82  checks_passed=5.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #3]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, self-deprecating, cosmic
+
+And water'd heaven with my soul thy free,
+And water'd heaven with me useless though,
+When no more lovely and this pleasant lea,
+For thy sweet love how long since cancell'd woe.
+
+This and that man's art more lovely and bold,
+Love that well which I grant I sitting heard,
+And delves the sweet love thee to me I told;
+The night air and over the little bird.
+
+Like as the stars threw down and all the night,
+Bright star would make towards the darkness hide,
+And when I grant I most quiet and bright,
+The forests of the lack of love abide.
+
+One I love to the very houses seem,
+If you like to one more day by the stream.
+
+rhyme=1.00  syllable=1.00  meter=0.96  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.52  quality=0.99  fitness=0.80  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 

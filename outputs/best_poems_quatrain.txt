@@ -1,22 +1,51 @@
-[quatrain #1]  theme: see  scheme: ABCB
+[quatrain #1]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
 
-Long in the silent thought he stood
-The hand or bends with friends;
-The forests of eyes that vainly
-The leaves off work or bends.
+I mark'd where souls brimfull of gold,
+And from time to apollo hold,
+Love how long time the main of light,
+Long time the tune without the night.
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=1.00  syntax=0.99  cohesion=0.23  fluency=1.00  novelty=0.71  quality=0.84  fitness=0.74
+Of proteus rising and gliding,
+The rocks the air and ideal grace,
+I have been in the night morning,
+By the night morning with my face.
+
+rhyme=1.00  syllable=1.00  meter=0.97  typicality=1.00  syntax=0.98  cohesion=0.36  fluency=0.99  novelty=0.53  quality=0.80  fitness=0.65  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[quatrain #2]  theme: tell  scheme: ABAB
+[quatrain #2]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
 
-In the silence of a frog,
-The night morning glad I love,
-Come to an admiring bog,
-What the road wind up above.
+The thing with fortune and my friend,
+When no more fair sometime declines,
+Come to show more fair from sullen
+Can no more day by heaven shines.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.27  fluency=1.00  novelty=0.47  quality=0.85  fitness=0.67
+In the expense of the night sleep
+Or call when the night air and weep,
+The air so long since then must leave,
+In lets out I told it not grieve.
+
+rhyme=1.00  syllable=1.00  meter=0.98  typicality=1.00  syntax=0.81  cohesion=0.45  fluency=0.89  novelty=0.68  quality=0.81  fitness=0.71  checks_passed=3.00  stop_ok=0.00
+
+------------------------------------------------------------
+
+[quatrain #3]  idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, wordplay, classical
+
+The deckhand singing with old dame,
+Singing his as it came;
+In the mason singing his youth,
+The morning with my arms.
+
+Up in the night air and spending,
+Down and broke his bending
+The night sleep in the air and look
+The manxome foe he took.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.56  fluency=1.00  novelty=0.51  quality=0.87  fitness=0.70  checks_passed=4.00  stop_ok=0.00
 
 ------------------------------------------------------------
 

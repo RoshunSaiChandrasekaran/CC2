@@ -114,10 +114,3 @@ def meter_fit(tokens: List[str], template: str) -> float:
         if (a == "1" and b == "0") or (a == "0" and b == "1"):
             bad += 1
     return max(0.0, 1.0 - bad / n)
-
-
-def best_meter_fit(tokens: List[str], kinds=("iambic", "trochaic")) -> float:
-    n = line_syllables(tokens)
-    if n == 0:
-        return 0.0
-    return max(meter_fit(tokens, meter_template(n, k)) for k in kinds)

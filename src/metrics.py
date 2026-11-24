@@ -21,7 +21,7 @@ import statistics
 from typing import Dict, List, Optional
 
 from lm import Associations, Corpus, MarkovModel, NgramLM, Poem, STOPWORDS, BOS
-from phonetics import (best_meter_fit, is_rhyme, line_syllables, meter_fit,
+from phonetics import (is_rhyme, line_syllables, meter_fit,
                        meter_template, tokenize)
 
 SONNET_SCHEME = "ABABCDCDEFEFGG"
@@ -30,8 +30,8 @@ DANGLING = set("""the a an of to and or but in on with for my thy his her their 
 are were am be by at as if""".split())
 
 # Weights of the aggregate quality score Q (components are all in 0..1).
-W_RHYMED = dict(form=0.35, typicality=0.25, fluency=0.20, cohesion=0.20)
-W_FREE = dict(typicality=0.40, fluency=0.35, cohesion=0.25)
+W_RHYMED = dict(form=0.35, typicality=0.15, fluency=0.20, cohesion=0.30)
+W_FREE = dict(typicality=0.25, fluency=0.35, cohesion=0.40)
 W_FORM = dict(rhyme=0.40, syllable=0.25, meter=0.35)
 NOVELTY_FLOOR = 0.6                      # F = Q * (0.6 + 0.4 * N)
 
