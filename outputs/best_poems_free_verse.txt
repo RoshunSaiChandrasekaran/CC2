@@ -1,0 +1,81 @@
+[free_verse #1]  "Ocean Without Rest"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: playful, self-deprecating, cosmic
+
+OCEAN WITHOUT REST
+
+I saw a little cat feet
+Little lamb make thee,
+How public like a little promontory it in me behold;
+Round they turn from art the little bird?
+
+And the stars,
+Night sleep death brag thou lovest best;
+However replied the night,
+I saw a resting place.
+
+And ocean without rest one and men's eyes as bright,
+Night doth take the fog comes;
+Till the sinews of insects in the rest one and city,
+I'm nobody who more foolish.
+
+typicality=1.00  syntax=0.75  cohesion=1.00  fluency=0.88  novelty=0.60  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #2]  "Pleasantest Thing"
+  planned idea: Death is the politest guest: he stops for you, uninvited.
+  moods: melancholic, dry, domestic
+
+PLEASANTEST THING
+
+Of the pleasantest thing,
+That the pleasantest thing,
+Never did sun more pleasing sound,
+Featured like so live.
+
+Dost thou know of nothing stands
+It rains on the remover to me I know
+Gave thee clothing wooly bright,
+I love more strong!
+
+The shoemaker singing of the mystical moist night,
+Night sleep death to bed by day,
+Night sleep death,
+Of the day callooh callay.
+
+The bed at night sleep in the spheres to death,
+The day callooh callay,
+The sun more beautifully steep.
+
+typicality=1.00  syntax=0.87  cohesion=1.00  fluency=0.94  novelty=0.55  quality=0.98  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #3]  "The Stars"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: melancholic, wordplay, urban
+
+THE STARS
+
+Gave thee clothing wooly bright,
+For the ends of stars shining so long as men in the day,
+Most quiet need be late and every fair sometime declines
+And dark is a continual miracle.
+
+Or sit at each other wayfarers at night the whole long time
+The mystical moist night a wild surmise,
+The question O frabjous day,
+And all are to a summer's day what shoulder what art sick.
+
+Night morning with soft deceitful wiles,
+In the night,
+Night morning or eye,
+Till I heard the night air and the stars.
+
+City of the night?
+
+typicality=1.00  syntax=0.67  cohesion=1.00  fluency=0.83  novelty=0.50  quality=0.94  fitness=0.75  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+

@@ -1,0 +1,84 @@
+[sonnet #1]  "Love to the Depth"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: cynical, wordplay, cosmic
+
+LOVE TO THE DEPTH
+
+I new pay as the air I love more strong
+Like stout cortez when feeling out of doom;
+Sun and is never saw a sight so long,
+I most quiet need by the lecture room!
+
+Love that once in the morning silent bare,
+Be form'd till I love abide and men's eyes,
+I fondly ask but no it must leave ere,
+These O me useless though my bootless cries.
+
+The night sleep death brag thou art and all bright
+It in death's dateless night doth not love,
+I love or hear the depth and candle light
+Well which I love I summon up above?
+
+I love to the depth and all in a swing,
+More foolish than the day labour you fling!
+
+rhyme=1.00  syllable=1.00  meter=0.96  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.63  quality=0.99  fitness=0.84  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #2]  "Silence"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: romantic, dry, dreamlike
+
+SILENCE
+
+In hope love of the plodding and yet come,
+The death and the fact has found out of young,
+And nothing stands but bears it asked a crumb,
+Dream how my light is his first splendour hung.
+
+In death's dateless night sleep in the breath
+Night doth like to love thee with eagle eyes,
+Love I think on thee better after death,
+The deckhand singing with eyes of the skies.
+
+It with smiles tears of eyes of finished years
+My mistress when a new soft rounded cheeks;
+The silence of the roof for when the spheres,
+Come to me useless though my mistress reeks.
+
+Like to woe tell thee with us late the sweet,
+And eyes as sunlight on little cat feet.
+
+rhyme=1.00  syllable=1.00  meter=0.99  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.57  quality=1.00  fitness=0.83  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #3]  "The Astronomer"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: romantic, dry, domestic
+
+THE ASTRONOMER
+
+I sitting heard the sessions of one wide,
+I heard chapman speak yet come to the sky,
+Astronomer where he returning chide,
+And useless though my soul can breathe or eye!
+
+Bear his height be form'd till I heard the cold,
+Forth filament out of the morning glad,
+With open unto the silence of gold,
+And all my life and diagrams to add.
+
+And trees in the day's journey take away,
+Of that fair thou art more day what belongs,
+The air and men's eyes that from art the day,
+The day with their strong melodious songs?
+
+Grew both day at night with his brief hours,
+Of the night air so do our powers.
+
+rhyme=1.00  syllable=1.00  meter=0.89  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.56  quality=0.98  fitness=0.81  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+

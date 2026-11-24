@@ -1,0 +1,75 @@
+[quatrain #1]  "The Figures"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: melancholic, dry, cosmic
+
+THE FIGURES
+
+Come back to go up in nature,
+The little lamb god choose
+The figures were the other way
+The thoughts that seemed to lose.
+
+The night air and does it not grieve,
+Come with the blazing sun,
+The night air and corruption leave
+Day and the lesson done.
+
+The silence at night sleep in death;
+The night a sense of tune,
+Oft of the night a roof for breath,
+And yet come in the moon.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.42  fluency=0.99  novelty=0.74  quality=0.83  fitness=0.74  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[quatrain #2]  "Love of the Night"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: melancholic, wordplay, urban
+
+LOVE OF THE NIGHT
+
+What dread hand or nature's changing
+I think it will be wires black
+Still hopping on what good amid;
+The air and jill went snicker snack.
+
+I love thee such a roof for right,
+To times in hope love of the night,
+Love how I wonder what dread feet,
+The roofs of love I seemed to beat.
+
+I grant I love or hear the breath,
+Of love as it the hand dare seize,
+And on what wings dare frame thy name
+I travell'd in the air and trees.
+
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.89  syntax=0.85  cohesion=0.62  fluency=0.93  novelty=0.59  quality=0.86  fitness=0.71  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[quatrain #3]  "Silence and Lamb"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: cynical, dry, cosmic
+
+SILENCE AND LAMB
+
+How public like a little lamb
+The little we are called;
+Little we passed the ships towers
+I like sleeping flowers.
+
+He knew that seals up jack and post,
+The silence of the chain
+Come to me in eternal lines,
+Silence of heaven shines.
+
+The speaking silence of the night;
+The wind up hill all bright,
+The lamb who are you nobody,
+Little bird and men's eyes.
+
+rhyme=1.00  syllable=1.00  meter=0.97  typicality=1.00  syntax=1.00  cohesion=0.40  fluency=0.99  novelty=0.58  quality=0.82  fitness=0.68  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
