@@ -56,6 +56,7 @@ class PoemGenerator:
         self._build_rhyme_families()
         self._learn_quatrain_schemes()
         self.fv_lengths = [len(tl) for p in corpus.of_category("free_verse") for tl in p.token_lines] or [6]
+        self.imagery: set = set()
 
     # ------------------------------------------------------------ preparation
     def _eligible(self, w: str) -> bool:
@@ -98,6 +99,8 @@ class PoemGenerator:
         theme = sum(w in boost for w in content) / len(content) if content else 0.0
         score = (0.15 * ev.line_typicality(tl) + 0.30 * ev.syntax_score([tl])
                  + 0.10 * clip(self.model.start_p(tl[0]) * 40) + 0.10 * theme)
+        if content:                                   # can be concrete images or theme words
+            score += 0.10 * clip(3 * sum(w in self.imagery for w in content) / len(content))
         if prev:                                   # STEP 2: does this line follow the previous one?
             score += 0.35 * clip(a.cosine(a.line_vector(tl), a.line_vector(prev)) / ev.coh_ref)
         if template is not None:
@@ -181,7 +184,7 @@ class PoemGenerator:
 
     # ----------------------------------------------------------- rhyme planning
     def _pick_words(self, size: int, used_keys: set, used_words: set, boost) -> Optional[List[str]]:
-        w8 = lambda w: self._end_weight(w) * boost.get(w, 1.0)          # noqa: E731
+        w8 = lambda w: self._end_weight(w) * boost.get(w, 1.0) * (2.0 if w in self.imagery else 1.0)  # noqa: E731
         if size == 1:
             ws = [w for w in self.end_words if w not in used_words]
             return [self.rng.choices(ws, weights=[w8(w) for w in ws])[0]] if ws else None
@@ -258,6 +261,7 @@ class PoemGenerator:
     def generate_poem(self, plan: Optional[Plan] = None) -> Optional[Poem]:
         plan = plan or make_plan(self.rng, self.assoc, "short", self.category)
         assert plan.form == self.category, "plan form must match the generator category"
+        self.imagery = set(plan.imagery)
         sizes = plan.block_sizes()
         boosts = [role_boost(plan, r, self.assoc) for r in outline(len(sizes))]
         used_words: set = set()

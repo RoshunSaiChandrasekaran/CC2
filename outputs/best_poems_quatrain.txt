@@ -1,51 +1,51 @@
 [quatrain #1]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, wordplay, classical
 
-And dark secret love that well,
-And more red than that you tell
-In the waves the ships at noon,
-I get up in a new moon?
+I mark'd where souls brimfull of gold,
+And from time to apollo hold,
+Love how long time the main of light,
+Long time the tune without the night.
 
-I half turn to night sleep death,
-Night a tender taken breath;
-The hand or call when feeling;
-The eye of the big shoulders.
+Of proteus rising and gliding,
+The rocks the air and ideal grace,
+I have been in the night morning,
+By the night morning with my face.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.32  fluency=1.00  novelty=0.64  quality=0.80  fitness=0.68  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.97  typicality=1.00  syntax=0.98  cohesion=0.36  fluency=0.99  novelty=0.53  quality=0.80  fitness=0.65  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
 [quatrain #2]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, wordplay, classical
 
-The road wind up jack and jill,
-He went up in the birds still,
-Up in the wind is passing
-The wind is the thing I sought.
+The thing with fortune and my friend,
+When no more fair sometime declines,
+Come to show more fair from sullen
+Can no more day by heaven shines.
 
-And when in the whole long day,
-Night my lost saints I new pay
-Up at night a resting place,
-And night morning with my face.
+In the expense of the night sleep
+Or call when the night air and weep,
+The air so long since then must leave,
+In lets out I told it not grieve.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.88  syntax=1.00  cohesion=0.54  fluency=1.00  novelty=0.49  quality=0.84  fitness=0.67  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.98  typicality=1.00  syntax=0.81  cohesion=0.45  fluency=0.89  novelty=0.68  quality=0.81  fitness=0.71  checks_passed=3.00  stop_ok=0.00
 
 ------------------------------------------------------------
 
 [quatrain #3]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, wordplay, classical
 
-The whole referring yet if hairs
-And yet come back in tears
-Who come back to the universe,
-And with soft fall and through.
+The deckhand singing with old dame,
+Singing his as it came;
+In the mason singing his youth,
+The morning with my arms.
 
-The stars threw down on the slow dark,
-The night morning or eye;
-Or of the night air so rested
-Air and over the sky.
+Up in the night air and spending,
+Down and broke his bending
+The night sleep in the air and look
+The manxome foe he took.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=0.91  cohesion=0.36  fluency=0.95  novelty=0.59  quality=0.80  fitness=0.67  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.56  fluency=1.00  novelty=0.51  quality=0.87  fitness=0.70  checks_passed=4.00  stop_ok=0.00
 
 ------------------------------------------------------------
 

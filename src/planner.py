@@ -29,12 +29,12 @@ MOODS = dict(                 # stored now, used for scoring in a later step
     humour=["dry", "satirical", "self-deprecating", "surreal", "wordplay"],
     ending=["punchline", "paradox", "revelation", "ambiguity", "emotional reversal"],
 )
-IMAGERY = dict(               # active now: these words get a steady boost
-    dreamlike=["dream", "sleep", "silent", "moon", "night"],
-    domestic=["house", "door", "roof", "bed", "garden", "table"],
-    classical=["god", "gold", "heaven", "apollo", "homer"],
-    urban=["city", "street", "streets", "ships", "crowds"],
-    cosmic=["stars", "sun", "sky", "moon", "heaven"],
+IMAGERY = dict(
+    dreamlike=["dream", "dreams", "sleep", "silent", "silence", "moon", "night", "dark", "darkness", "shade"],
+    domestic=["house", "houses", "door", "roof", "bed", "garden", "table", "candle", "hearth", "window", "bench"],
+    classical=["god", "gold", "heaven", "apollo", "homer", "pagan", "triton", "proteus", "saints", "temples", "bards"],
+    urban=["city", "street", "streets", "ships", "crowds", "towers", "domes", "bridge", "harbor", "steamboat"],
+    cosmic=["stars", "star", "sun", "sky", "skies", "moon", "heaven", "planet", "spheres", "space"],
 )
 LENGTHS = {"short": (8, 16), "medium": (16, 32), "long": (32, 40)}
 
@@ -107,4 +107,6 @@ def stop_check(poem, plan, m) -> Dict[str, bool]:
         ending=tokenize(poem.lines[-1])[-1] not in DANGLING
         and len(first & last) / max(1, len(first | last)) < 0.5,
         coherence=m["cohesion"] >= 0.3 and m["adjacent_repeats"] == 0,
+        imagery=len(_content(poem.lines) & set(plan.imagery)) >= min(3, len(plan.imagery))
+        and sum(bool(_content(s) & set(plan.imagery)) for s in poem.stanzas) * 2 >= len(poem.stanzas),
     )

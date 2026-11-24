@@ -1,75 +1,75 @@
 [sonnet #1]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, self-deprecating, cosmic
 
-That time of every day's journey take,
-Up in death's second self that time that deep,
-And that time doth transfix the lark at break
-Eternal lines to time that will not keep.
+In these O frabjous day erased the breath,
+Sickle's compass come with soft fall and cheeks
+O my fair love's long as men strive for death
+And in the morning with my mistress reeks.
 
-Be error and time that life and if snow,
-I never did he took his gift confound
-By heaven I love thee dear time's fool though
-Or hear the world is raining all around.
+To death bed whereon it was shown the charts,
+Did sun more fair sometime too bitter sweet,
+Sun and time that kept so do our hearts,
+And eyes as bright star to me in the street.
 
-I love that which I accosted the man,
-Love as thou must leave ere half turn from praise
-The sun and all are to the depth and ran,
-And soon replies god doth transfix the ways.
+In the breath that seals up all bright and said,
+By heaven I love I sing the setting
+My fair love's not to love that which it dead,
+When in hope love that opening letting.
 
-That on the roof so much to the twilight,
-Or gazing on the whole long as sunlight.
+That on the depth and sore must leave ere long;
+And on what wings dare frame thy love more strong.
 
-rhyme=1.00  syllable=1.00  meter=0.96  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.57  quality=0.99  fitness=0.82  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.93  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.60  quality=0.99  fitness=0.83  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
 [sonnet #2]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, self-deprecating, cosmic
 
-And time that music hath a sordid boon,
-And time thou mayst in the winds do contend,
-And nothing like the sun and delves the moon,
-Like as the flourish set on thee dear friend.
+The world and delves the beauty of the skies,
+And with a calm so long as his demesne,
+From fair love's long lives this and time that flies,
+Time of being and sweetest in the main.
 
-Sun and watching with any she belied,
-Sun and time that gave thee clothing wooly,
-And by sun and his dark is death to hide
-The winds that well I think on thee fully.
+I sing the while I think my soul thy free,
+Till I mark'd how dreary to be taken
+The pacific and all my soul can see
+The sky is meek he is never shaken.
 
-Life again though my soul who could caper
-With vinegar and yet come in the ways
-I love to hear old griefs and brown paper,
-And more lovely and round they turn from praise.
+Or sleep in winter I think my true minds,
+Art more red and white why then can I drown,
+The bed whereon it alteration finds,
+And in death's dateless night air and down.
 
-I love that well which makes thy worth despite
-Love or at this man's art the day at night.
+Doth take the setting sun and candle light
+And by day at night sleep in summer quite!
 
-rhyme=1.00  syllable=1.00  meter=0.88  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.58  quality=0.98  fitness=0.82  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.91  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.57  quality=0.99  fitness=0.82  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
 [sonnet #3]  idea: Time is a creditor: we spend our days and still owe.
   moods: detached, self-deprecating, cosmic
 
-That time of that fair love's ripening breast,
-Long time the school where late the morning glad,
-Account of that time doth transfix the rest
-Time of being and diagrams to add.
+And water'd heaven with my soul thy free,
+And water'd heaven with me useless though,
+When no more lovely and this pleasant lea,
+For thy sweet love how long since cancell'd woe.
 
-Or of the exquisite delicate thin
-The night air and time that on the new pay,
-And with old griefs and yet come back in sin,
-That seals up all bright and spending we lay!
+This and that man's art more lovely and bold,
+Love that well which I grant I sitting heard,
+And delves the sweet love thee to me I told;
+The night air and over the little bird.
 
-At night doth take away a garment wear
-Bright and time of true account lest he knew,
-What dread hand or eye of many a pair,
-The night air and moan the marriage of true.
+Like as the stars threw down and all the night,
+Bright star would make towards the darkness hide,
+And when I grant I most quiet and bright,
+The forests of the lack of love abide.
 
-The air I have seen roses see I sought
-The speaking silence of sweet silent thought.
+One I love to the very houses seem,
+If you like to one more day by the stream.
 
-rhyme=1.00  syllable=1.00  meter=0.89  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.53  quality=0.98  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.96  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.52  quality=0.99  fitness=0.80  checks_passed=5.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
