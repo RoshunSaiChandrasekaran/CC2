@@ -12,7 +12,6 @@ from lm import STOPWORDS
 from metrics import DANGLING
 from phonetics import tokenize
 
-# Words not in the corpus are filtered out automatically (see `known`).
 PREMISES = [
     dict(idea="Being oneself is hard when several selves compete for the name.",
          theme=["name", "myself", "heart", "eyes"], counter=["nobody", "alone", "silence"]),
@@ -23,13 +22,13 @@ PREMISES = [
     dict(idea="Death is the politest guest: he stops for you, uninvited.",
          theme=["death", "house", "door", "kindly"], counter=["sun", "day", "children"]),
 ]
-MOODS = dict(                 # stored now, used for scoring in a later step
+MOODS = dict(                
     atmosphere=["melancholic", "playful", "cynical", "romantic", "detached"],
     intellect=["philosophical", "paradoxical", "observational", "absurdist"],
     humour=["dry", "satirical", "self-deprecating", "surreal", "wordplay"],
     ending=["punchline", "paradox", "revelation", "ambiguity", "emotional reversal"],
 )
-IMAGERY = dict(               # active now: these words get a steady boost
+IMAGERY = dict(              
     dreamlike=["dream", "sleep", "silent", "moon", "night"],
     domestic=["house", "door", "roof", "bed", "garden", "table"],
     classical=["god", "gold", "heaven", "apollo", "homer"],
@@ -73,8 +72,8 @@ def make_plan(rng: random.Random, assoc, length: str = "short", form: Optional[s
     form = form or rng.choice(["quatrain", "free_verse"] + (["sonnet"] if length == "short" else []))
     n = 14 if form == "sonnet" else rng.randint(lo, hi)
     if form == "quatrain":
-        n = n // 4 * 4                                    # whole stanzas only
-    known = lambda ws: [w for w in ws if w in assoc.count]          # noqa: E731
+        n = n // 4 * 4                                   
+    known = lambda ws: [w for w in ws if w in assoc.count]        
     p = rng.choice([q for q in PREMISES if q["idea"] not in avoid] or PREMISES)
     theme = known(p["theme"]) or [rng.choice(sorted(assoc.candidate_themes()))]
     style = rng.choice(list(IMAGERY))
@@ -90,7 +89,7 @@ def role_boost(plan: Plan, role: str, assoc) -> Dict[str, float]:
     for w in words:
         for k, v in assoc.theme_boost(w).items():
             boost[k] = max(boost.get(k, 1.0), v)
-    for w in plan.imagery:                                # imagery stays on throughout
+    for w in plan.imagery:                              
         boost[w] = max(boost.get(w, 1.0), 3.0)
     return boost
 
