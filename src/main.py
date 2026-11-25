@@ -8,10 +8,10 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from generator import GenConfig, PoemGenerator          # noqa: E402
-from lm import Associations, Corpus                       # noqa: E402
-from metrics import Evaluator                             # noqa: E402
-from titler import Titler                                 # noqa: E402
+from generator import GenConfig, PoemGenerator          
+from lm import Associations, Corpus                       
+from metrics import Evaluator                             
+from titler import Titler                                 
 
 CATS = ["quatrain", "sonnet", "free_verse"]
 SHOW = ["rhyme", "syllable", "meter", "typicality", "syntax", "cohesion", "fluency",
@@ -44,7 +44,6 @@ def main():
         gen = PoemGenerator(corpus, cat, GenConfig(order2_weight=a.order2, poem_pool=a.pool),
                             seed=a.seed, evaluator=ev)
         titler = Titler(corpus, ev)
-        # each of the top poems comes from its own plan, so the best poems show different ideas
         results = gen.generate_varied(top_k=a.top, length=a.length)
         out = os.path.join(a.outdir, f"best_poems_{cat}.txt")
         used_titles: list = []
