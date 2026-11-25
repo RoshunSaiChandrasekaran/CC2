@@ -1,19 +1,3 @@
-"""Titles for generated poems.
-
-The inspiring set's titles are short and noun-like ("The Tyger", "Fog", "A Poison Tree",
-"Bright Star"), so a title here is a 1-4 word phrase taken from the poem itself, or built
-from its most important nouns ("Night and Time", "The Moon"). Nothing is invented from
-outside the poem, so a title can never claim an idea the poem does not contain.
-
-Candidates are scored on
-  * salience   : words the poem repeats or the plan is about
-  * grammar    : the evaluator's class-bigram syntax score
-  * noun ending: titles in the inspiring set end on a noun, so the last word should be
-                 'noun-like' (learned: how often the word follows the/a/my... in the corpus)
-  * length     : 2-3 words is ideal (the real titles are that short)
-A candidate equal to a real title is dropped. Titles are presentation only: they are NOT
-part of the evaluation, and the blind human-rating sheet leaves them out on purpose.
-"""
 from __future__ import annotations
 
 import math
@@ -39,7 +23,7 @@ class Titler:
         self.real = {tuple(tokenize(p.title)) for p in corpus.poems}
         count: Counter = Counter()
         after_det: Counter = Counter()
-        before_content: Counter = Counter()       # word is followed by a content word (adjective-like)
+        before_content: Counter = Counter()       
         doc_freq: Counter = Counter()
         for p in corpus.poems:
             doc_freq.update({w for tl in p.token_lines for w in tl})
@@ -50,14 +34,11 @@ class Titler:
                         after_det[w] += 1
                     if i + 1 < len(tl) and tl[i + 1] not in STOPWORDS:
                         before_content[w] += 1
-        # nouns follow 'the/a/my...' often and are not usually followed by another content word
-        # (that would make them adjectives: 'livelong day', 'darling buds')
         self.noun_like = {w for w, c in count.items()
                           if after_det[w] >= 1 and after_det[w] / c >= 0.25
                           and before_content[w] / c <= 0.6
                           and w not in STOPWORDS and len(w) > 2}
         n = len(corpus.poems)
-        # 0..1: 1 = the word appears in few poems (distinctive), 0 = in every poem
         self.distinct = {w: math.log((n + 1) / (d + 1)) / math.log(n + 1) for w, d in doc_freq.items()}
 
     # ------------------------------------------------------------- candidates
@@ -71,7 +52,7 @@ class Titler:
             return False
         first = span[0]
         if first == "of":
-            return False                               # "Of the Night" reads like a fragment
+            return False                               
         if first in STOPWORDS:
             if first in DET:
                 if len(span) < 2:
@@ -80,7 +61,7 @@ class Titler:
                 if len(span) < 3 or span[1] not in DET:
                     return False
             else:
-                return False                       # "and ...", "when I ...", "i ..."
+                return False                     
         for a, b in zip(span, span[1:]):
             if a in STOPWORDS and b in STOPWORDS and not (a in PREP and b in DET):
                 return False
@@ -134,5 +115,5 @@ class Titler:
         if not cands:
             return plan.theme[0].capitalize()
         ranked = sorted(cands, key=lambda c: (-self._score(c, salience), c))[:3]
-        rng = random.Random(" ".join(poem.lines))      # per-poem, so the generator's own random stream is untouched
+        rng = random.Random(" ".join(poem.lines))      
         return self._format(rng.choices(ranked, weights=[3, 2, 1][:len(ranked)])[0])
