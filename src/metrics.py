@@ -91,6 +91,12 @@ class Evaluator:
         self.typ_high = max(percentile(typ, 0.25), 0.05)
         self.f_mu, self.f_sd = self._stats([self._feats(u.token_lines) for u in units])
         self.l_mu, self.l_sd = self._stats([self._line_feats(t) for u in units for t in u.token_lines])
+        # Typicality bands come from the real poems themselves: full marks at the median
+        # real distance, zero at (roughly) the most atypical real poems.
+        self.f_lo, self.f_hi = self._band(
+            [self._zdist(self._feats(u.token_lines), self.f_mu, self.f_sd) for u in units])
+        self.l_lo, self.l_hi = self._band(
+            [self._zdist(self._line_feats(t), self.l_mu, self.l_sd) for u in units for t in u.token_lines])
         # Syntax / cohesion: 0 = 10th-percentile real poem, 1 = 90th.
         self.syn_low, self.syn_high = percentile(syn, 0.10), percentile(syn, 0.90)
         coh = [self._cohesion_raw(u.token_lines) for u in units]
@@ -115,6 +121,11 @@ class Evaluator:
                 sum(len(w) for w in tl) / nw]
 
     @staticmethod
+    def _band(dists: List[float]):
+        lo = percentile(dists, 0.50)
+        return lo, max(percentile(dists, 0.95), lo + 0.25)
+
+    @staticmethod
     def _stats(rows: List[List[float]]):
         cols = list(zip(*rows))
         mu = [statistics.mean(c) for c in cols]
@@ -126,15 +137,17 @@ class Evaluator:
         return sum(abs((a - m) / s) for a, m, s in zip(x, mu, sd)) / len(x)
 
     @staticmethod
-    def _dist_to_score(d: float) -> float:
-        # a real poem sits ~0.8 sd from the centre on average -> full marks up to 0.8
-        return clip(1 - max(0.0, d - 0.8) / 1.6)
+    def _dist_to_score(d: float, lo: float, hi: float) -> float:
+        """1.0 if at least as typical as the median real poem, 0.0 at the 95th percentile."""
+        return clip(1 - (d - lo) / (hi - lo))
 
     def feature_typicality(self, tls: List[List[str]]) -> float:
-        return self._dist_to_score(self._zdist(self._feats(tls), self.f_mu, self.f_sd))
+        return self._dist_to_score(self._zdist(self._feats(tls), self.f_mu, self.f_sd),
+                                   self.f_lo, self.f_hi)
 
     def line_typicality(self, tl: List[str]) -> float:
-        return self._dist_to_score(self._zdist(self._line_feats(tl), self.l_mu, self.l_sd))
+        return self._dist_to_score(self._zdist(self._line_feats(tl), self.l_mu, self.l_sd),
+                                   self.l_lo, self.l_hi)
 
     @staticmethod
     def _classes(tl: List[str]) -> List[str]:

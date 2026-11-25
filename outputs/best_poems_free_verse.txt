@@ -1,81 +1,133 @@
-[free_verse #1]  "Ocean Without Rest"
+[free_verse #1]  "The Astronomer"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: playful, surreal, classical
+
+THE ASTRONOMER
+
+Or leaves off work,
+The boatman singing on a little cat feet,
+Each one singing on the ground,
+Look'd up above the world.
+
+The world is futile I never did trot,
+That seemed to apollo hold,
+I heard the fields,
+The learn'd astronomer.
+
+I sitting heard
+Night sleep death and it sits looking
+Night sleep in the struggle ever renew'd
+Or birds or eye of the stars.
+
+The day at night morning with eagle eyes;
+To night sleep death
+I sigh the night
+What immortal hand.
+
+typicality=1.00  syntax=0.81  cohesion=1.00  fluency=0.90  novelty=0.61  quality=0.97  fitness=0.81  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #2]  "More Strong"
+  planned idea: Death is the politest guest: he stops for you, uninvited.
+  moods: melancholic, wordplay, domestic
+
+MORE STRONG
+
+The delicious singing of itself
+To love more strong,
+In the breath,
+So live ever renew'd.
+
+Then you show more fair
+I love more day by yellow leaves off work,
+O my love more strong
+Whether I love thee.
+
+And nothing like the sun,
+I love as rare,
+Night sleep death to hide
+Consumed with that from art the day at night sleep death.
+
+Shall I meet other way,
+The roof so sad recurring what art,
+And nothing stands,
+Sweet birds or the fields and brown paper.
+
+typicality=1.00  syntax=0.76  cohesion=1.00  fluency=0.88  novelty=0.59  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #3]  "Miracle"
   planned idea: Being oneself is hard when several selves compete for the name.
-  moods: playful, self-deprecating, cosmic
+  moods: cynical, surreal, classical
 
-OCEAN WITHOUT REST
+MIRACLE
 
-I saw a little cat feet
-Little lamb make thee,
-How public like a little promontory it in me behold;
-Round they turn from art the little bird?
+Like a miracle,
+Every foot of eyes of heaven shines
+A miracle,
+And sweetest in the lamb god choose!
 
-And the stars,
-Night sleep death brag thou lovest best;
-However replied the night,
-I saw a resting place.
+To tell o'er,
+Or watch the slow dark secret love,
+And gliding out of eyes,
+Come back to none else.
 
-And ocean without rest one and men's eyes as bright,
-Night doth take the fog comes;
-Till the sinews of insects in the rest one and city,
+And his dark hours begin
+I like the sun more beautifully steep,
+It launch'd forth filament out of tune,
 I'm nobody who more foolish.
 
-typicality=1.00  syntax=0.75  cohesion=1.00  fluency=0.88  novelty=0.60  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+typicality=1.00  syntax=0.97  cohesion=0.77  fluency=0.98  novelty=0.64  quality=0.90  fitness=0.77  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[free_verse #2]  "Pleasantest Thing"
-  planned idea: Death is the politest guest: he stops for you, uninvited.
-  moods: melancholic, dry, domestic
-
-PLEASANTEST THING
-
-Of the pleasantest thing,
-That the pleasantest thing,
-Never did sun more pleasing sound,
-Featured like so live.
-
-Dost thou know of nothing stands
-It rains on the remover to me I know
-Gave thee clothing wooly bright,
-I love more strong!
-
-The shoemaker singing of the mystical moist night,
-Night sleep death to bed by day,
-Night sleep death,
-Of the day callooh callay.
-
-The bed at night sleep in the spheres to death,
-The day callooh callay,
-The sun more beautifully steep.
-
-typicality=1.00  syntax=0.87  cohesion=1.00  fluency=0.94  novelty=0.55  quality=0.98  fitness=0.80  checks_passed=4.00  stop_ok=1.00
-
-------------------------------------------------------------
-
-[free_verse #3]  "The Stars"
+[free_verse #4]  "The Stars"
   planned idea: Time is a creditor: we spend our days and still owe.
-  moods: melancholic, wordplay, urban
+  moods: detached, surreal, domestic
 
 THE STARS
 
-Gave thee clothing wooly bright,
-For the ends of stars shining so long as men in the day,
-Most quiet need be late and every fair sometime declines
-And dark is a continual miracle.
+And carousing in the lecture room;
+In his gift confound,
+In the mome raths outgrabe,
+And yet by black night the party of the air.
 
-Or sit at each other wayfarers at night the whole long time
-The mystical moist night a wild surmise,
-The question O frabjous day,
-And all are to a summer's day what shoulder what art sick.
+Tyger burning bright,
+Night sleep death to hide
+Night sleep death and home did trot,
+And round they will be late the themes thou art sick?
 
-Night morning with soft deceitful wiles,
-In the night,
-Night morning or eye,
-Till I heard the night air and the stars.
+Up in the bed and see;
+Night morning with railroads and the stars!
 
-City of the night?
+typicality=1.00  syntax=0.78  cohesion=0.97  fluency=0.89  novelty=0.50  quality=0.95  fitness=0.76  checks_passed=4.00  stop_ok=1.00
 
-typicality=1.00  syntax=0.67  cohesion=1.00  fluency=0.83  novelty=0.50  quality=0.94  fitness=0.75  checks_passed=4.00  stop_ok=1.00
+------------------------------------------------------------
+
+[free_verse #5]  "Stars and Silence"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: melancholic, satirical, cosmic
+
+STARS AND SILENCE
+
+When I heard the wordless
+I love abide and meet other wayfarers at heaven's gate
+The carpenter singing on the horizon
+I stood isolated.
+
+Nor shall but love thee purely as in uffish thought
+And sick;
+Till the silence at the stars
+Till the stars.
+
+To night air and gliding out loud and bold
+Night morning with my friend,
+Or eye of the night
+Sir I have no more day at night air and from art the breath.
+
+typicality=1.00  syntax=0.64  cohesion=1.00  fluency=0.82  novelty=0.48  quality=0.94  fitness=0.74  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 

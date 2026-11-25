@@ -1,84 +1,140 @@
-[sonnet #1]  "Love to the Depth"
+[sonnet #1]  "The Night"
   planned idea: Time is a creditor: we spend our days and still owe.
-  moods: cynical, wordplay, cosmic
+  moods: melancholic, wordplay, domestic
 
-LOVE TO THE DEPTH
+THE NIGHT
 
-I new pay as the air I love more strong
-Like stout cortez when feeling out of doom;
-Sun and is never saw a sight so long,
-I most quiet need by the lecture room!
+Or none or hear old griefs and delves the pole,
+That which is death to an admiring bog;
+And curse my life to change my garden stole,
+And more fair love's long since then there's a frog.
 
-Love that once in the morning silent bare,
-Be form'd till I love abide and men's eyes,
-I fondly ask but no it must leave ere,
-These O me useless though my bootless cries.
+Long as men can reach when yellow leaves hang,
+I seemed to the lark at his glory fight
+The world and stood upon a sweet birds sang,
+Of sweet silent upon a vanish'd sight.
 
-The night sleep death brag thou art and all bright
-It in death's dateless night doth not love,
-I love or hear the depth and candle light
-Well which I love I summon up above?
+And with old griefs and with the passion put
+When just in the bed whereon it with smiles
+The ends of all bright and every foot,
+The night morning with soft deceitful wiles.
 
-I love to the depth and all in a swing,
-More foolish than the day labour you fling!
+Night sleep in the air and delves the trees bow,
+In hope love alters when in beauty's brow!
 
-rhyme=1.00  syllable=1.00  meter=0.96  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.63  quality=0.99  fitness=0.84  checks_passed=4.00  stop_ok=1.00
-
-------------------------------------------------------------
-
-[sonnet #2]  "Silence"
-  planned idea: Being oneself is hard when several selves compete for the name.
-  moods: romantic, dry, dreamlike
-
-SILENCE
-
-In hope love of the plodding and yet come,
-The death and the fact has found out of young,
-And nothing stands but bears it asked a crumb,
-Dream how my light is his first splendour hung.
-
-In death's dateless night sleep in the breath
-Night doth like to love thee with eagle eyes,
-Love I think on thee better after death,
-The deckhand singing with eyes of the skies.
-
-It with smiles tears of eyes of finished years
-My mistress when a new soft rounded cheeks;
-The silence of the roof for when the spheres,
-Come to me useless though my mistress reeks.
-
-Like to woe tell thee with us late the sweet,
-And eyes as sunlight on little cat feet.
-
-rhyme=1.00  syllable=1.00  meter=0.99  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.57  quality=1.00  fitness=0.83  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.90  typicality=1.00  syntax=1.00  cohesion=0.99  fluency=1.00  novelty=0.63  quality=0.99  fitness=0.84  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[sonnet #3]  "The Astronomer"
+[sonnet #2]  "The Proofs"
   planned idea: The more we measure the world, the less of it we see.
-  moods: romantic, dry, domestic
+  moods: detached, surreal, classical
 
-THE ASTRONOMER
+THE PROOFS
 
-I sitting heard the sessions of one wide,
-I heard chapman speak yet come to the sky,
-Astronomer where he returning chide,
-And useless though my soul can breathe or eye!
+That which is thy name the livelong day,
+High place with what I a child can never,
+Like stout cortez when yellow leaves or pray,
+The proofs the lack of myself forever.
 
-Bear his height be form'd till I heard the cold,
-Forth filament out of the morning glad,
-With open unto the silence of gold,
-And all my life and diagrams to add.
+The realms of snow upon myself and weeks
+And is gone far away a love I sigh;
+And all alone beweep my mistress reeks,
+Look'd at this gives life to the world so high.
 
-And trees in the day's journey take away,
-Of that fair thou art more day what belongs,
-The air and men's eyes that from art the day,
-The day with their strong melodious songs?
+When you can breathe or eyes of the stars threw
+And yet each changing place with eagle eyes
+And ocean without rest one two and through,
+Or wade with eyes of insects in the skies.
 
-Grew both day at night with his brief hours,
-Of the night air so do our powers.
+Like to the mystical moist night doth take,
+Day with open unto the winds do shake?
 
-rhyme=1.00  syllable=1.00  meter=0.89  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.56  quality=0.98  fitness=0.81  checks_passed=4.00  stop_ok=1.00
+rhyme=1.00  syllable=1.00  meter=0.87  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.55  quality=0.98  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #3]  "Heart and Name"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: melancholic, surreal, urban
+
+HEART AND NAME
+
+The parallels in what dread hand dare seize;
+Like as thou art and said comrade brother;
+And nothing like the hammer what the trees;
+Or call when he nothing like the mother.
+
+Like to times in its deadly terrors clasp,
+Doth like the ends of one I love more strong,
+Love thee with his cruel hand what dread grasp,
+In what the hammer what dread feet along.
+
+And cheeks and with eternal lids apart
+A pair of myself almost despising,
+Thirsting longing eyes are called by thy heart,
+My name the livelong day arising.
+
+That which is death to night my outcast state,
+No more day by black night doth like a date.
+
+rhyme=1.00  syllable=1.00  meter=0.82  typicality=0.88  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.59  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #4]  "My Labor"
+  planned idea: Death is the politest guest: he stops for you, uninvited.
+  moods: melancholic, surreal, classical
+
+MY LABOR
+
+My old griefs and useless though my labor
+When in death's second self that gave thee life,
+The world so rested he by day labour,
+Bed by day labour light of the young wife.
+
+The other wayfarers at heaven's gate,
+The ashes of the night doth take away
+I love more rich in hope my outcast state,
+Who made the blazing sun is far more day!
+
+And yet each one I love alters not fade,
+The pleasantest thing I love thee with kings
+I never did sun more day by his shade
+Eclipses gainst his boat the day what wings.
+
+Catch somewhere O frabjous day by thy love,
+The sweet love to hear the grown up above!
+
+rhyme=1.00  syllable=1.00  meter=0.90  typicality=0.83  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.58  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #5]  "Love That Flies"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: cynical, surreal, cosmic
+
+LOVE THAT FLIES
+
+And glittering in the world is too hot,
+In measureless oceans of his youth,
+And cheeks and spending we are up jack got,
+And white why then felt I like nature's truth.
+
+Saw I sigh the vorpal sword in the main,
+That one talent which by day arising
+Each one I love is clear and delves the rain,
+The ends of myself almost despising.
+
+The day what furnace was thy worth despite
+And with my foe he went galumphing back;
+I love that flies in death's dateless night,
+Lost saints I love that will be wires black?
+
+Saints I love thee to a new planet swims,
+Love thee freely as thou art and sings hymns.
+
+rhyme=1.00  syllable=1.00  meter=0.86  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.53  quality=0.98  fitness=0.79  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
