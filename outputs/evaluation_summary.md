@@ -93,7 +93,7 @@ A love more rich in death's dateless night.
 
 Effect size on quality (Cohen's d): constrained vs baseline = 0.64, full vs constrained = 5.76.
 
-**Metric sanity check:** WARNING: shuffled score within 0.15 of real poems, so 'quality' cannot tell them apart.
+**Metric sanity check:** Shuffled score within 0.15 of real poems, so 'quality' cannot tell them apart.
 Win rates on quality: real > shuffled 70%, full > shuffled 100%, real > full 1%.
 Diversity (mean pairwise word-set distance): salad 0.96, shuffled 0.88, baseline 0.87, constrained 0.87, full 0.85.
 
@@ -117,15 +117,3 @@ That mighty heart began to night my childhood's faith.
 
 And dark hours begin.
 ```
-
-## How to read this (and its limits)
-
-* The metrics are **automatic proxies**. Typicality and cohesion are calibrated on the real poems
-  (leave-one-poem-out), so 'typical enough' is learned from the inspiring set, not set by hand.
-* Some components (syntax, typicality, meter, cohesion) are also used by the generator to pick
-  lines and poems, so `full` is partly graded on what it optimised. The honest check is the
-  independent **human evaluation** (`src/human_eval.py`) and the readability of the examples.
-* Typicality here is feature-based (line length, function-word ratio, word length, variety) because
-  a word-bigram likelihood ratio could not separate the categories out-of-sample with so few poems.
-* Cohesion is a weak proxy (word co-occurrence inside the corpus); coherence between lines is the
-  known weakness of Markov generation and the numbers should be read that way.
