@@ -1,4 +1,4 @@
-# Human evaluation (1 raters, 45 ratings)
+# Human evaluation 
 
 | source | fluency | coherence | sound_and_form | overall | rated 'human-written' |
 |---|---|---|---|---|---|
