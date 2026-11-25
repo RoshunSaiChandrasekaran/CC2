@@ -6,9 +6,9 @@ import statistics
 import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
-from generator import PoemGenerator                       # noqa: E402
-from lm import Associations, Corpus                       # noqa: E402
-from metrics import Evaluator                             # noqa: E402
+from generator import PoemGenerator                       
+from lm import Associations, Corpus                       
+from metrics import Evaluator                             
 from planner import make_plan 
 
 CATS = ["quatrain", "sonnet", "free_verse"]
@@ -51,7 +51,7 @@ def analyze(a):
     with open(a.key, encoding="utf-8") as f:
         for r in csv.DictReader(f):
             key[r["id"]] = (r["category"], r["source"])
-    ratings = []                                   # (rater, id, dim -> value, guess)
+    ratings = []                                   
     for path in a.ratings:
         with open(path, encoding="utf-8") as f:
             for r in csv.DictReader(f):
@@ -76,7 +76,7 @@ def analyze(a):
                 parts.append(f"{src} {statistics.mean(r[2]['overall'] for r in rs):.2f}")
         out.append(f"* {cat}: " + ", ".join(parts))
     raters = sorted({r[0] for r in ratings})
-    if len(raters) > 1:                            # agreement: mean pairwise Pearson on 'overall'
+    if len(raters) > 1:                            
         by = {x: {r[1]: r[2]["overall"] for r in ratings if r[0] == x} for x in raters}
         cors = []
         for i in range(len(raters)):
