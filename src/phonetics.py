@@ -15,6 +15,13 @@ import pronouncing
 WORD_RE = re.compile(r"[a-z]+(?:'[a-z]+)*")
 
 
+# Small function words are normally unstressed in speech. In meter_fit they may sit on a
+# strong beat, but it costs half a point (poets do this, but rarely a whole line of it).
+WEAK_WORDS = set("""the a an and or but nor so of to in on at by with from for as if than
+is are was were be am my thy his her its our your their i me we you he she it they that this
+""".split())
+
+
 def tokenize(line: str) -> List[str]:
     """Lower-case word tokens. '&' and punctuation are dropped."""
     return WORD_RE.findall(line.lower().replace("’", "'"))
@@ -51,10 +58,10 @@ def syllables(word: str) -> int:
 
 @functools.lru_cache(maxsize=None)
 def stress(word: str) -> str:
-    """Stress string for a word: '1' stressed, '0' unstressed, 'x' flexible.
+    """Stress string: '1' stressed, '0' unstressed, 'x' flexible, 'w' weak function word.
 
-    Monosyllables and secondary stress ('2') are flexible, because in verse
-    a one-syllable word can sit in either a strong or a weak position.
+    Content monosyllables and secondary stress stay flexible. Monosyllabic function
+    words are 'w': fine on a weak beat, mildly penalised on a strong one.
     Unknown words are flexible throughout.
     """
     p = phones(word)
@@ -62,7 +69,7 @@ def stress(word: str) -> str:
         return "x" * syllables(word)
     raw = pronouncing.stresses(p)
     if len(raw) <= 1:
-        return "x" * max(1, len(raw))
+        return "w" if word in WEAK_WORDS else "x" * max(1, len(raw))
     return "".join("1" if c == "1" else ("0" if c == "0" else "x") for c in raw)
 
 
@@ -109,15 +116,10 @@ def meter_fit(tokens: List[str], template: str) -> float:
     n = max(len(s), len(template))
     if n == 0:
         return 0.0
-    bad = abs(len(s) - len(template))
+    bad = float(abs(len(s) - len(template)))
     for a, b in zip(s, template):
         if (a == "1" and b == "0") or (a == "0" and b == "1"):
-            bad += 1
+            bad += 1.0
+        elif a == "w" and b == "1":
+            bad += 0.5
     return max(0.0, 1.0 - bad / n)
-
-
-def best_meter_fit(tokens: List[str], kinds=("iambic", "trochaic")) -> float:
-    n = line_syllables(tokens)
-    if n == 0:
-        return 0.0
-    return max(meter_fit(tokens, meter_template(n, k)) for k in kinds)

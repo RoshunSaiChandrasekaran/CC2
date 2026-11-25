@@ -1,19 +1,11 @@
 """Poem quality evaluation.
 
-The evaluation is the centre of this project: the generator is a simple
-(Markov chain + constraints) method, so what matters is how good the poems
-actually are. Quality is reported as a PROFILE of components, not just one
-number:
-
   form        rhyme, syllable regularity, meter           (rhymed forms only)
   typicality  how much it looks like the category         (Ritchie's 'typ')
   novelty     how far it is from the inspiring set        (Ritchie's novelty)
   cohesion    do neighbouring lines share a topic
   fluency     surface sanity: dangling endings, repeats, line starters
 
-Typicality and cohesion are CALIBRATED on the real poems of the category
-(leave-one-poem-out), so 'typical enough' is learned from the inspiring
-set instead of being an arbitrary threshold.
 """
 from __future__ import annotations
 
@@ -21,17 +13,17 @@ import statistics
 from typing import Dict, List, Optional
 
 from lm import Associations, Corpus, MarkovModel, NgramLM, Poem, STOPWORDS, BOS
-from phonetics import (best_meter_fit, is_rhyme, line_syllables, meter_fit,
+from phonetics import (is_rhyme, line_syllables, meter_fit,
                        meter_template, tokenize)
 
 SONNET_SCHEME = "ABABCDCDEFEFGG"
-SONNET_BREAKS = (4, 8, 12)               # stanza breaks when printing a sonnet
+SONNET_BREAKS = (4, 8, 12)               
 DANGLING = set("""the a an of to and or but in on with for my thy his her their our your that which who is was
 are were am be by at as if""".split())
 
 # Weights of the aggregate quality score Q (components are all in 0..1).
-W_RHYMED = dict(form=0.35, typicality=0.25, fluency=0.20, cohesion=0.20)
-W_FREE = dict(typicality=0.40, fluency=0.35, cohesion=0.25)
+W_RHYMED = dict(form=0.35, typicality=0.15, fluency=0.20, cohesion=0.30)
+W_FREE = dict(typicality=0.25, fluency=0.35, cohesion=0.40)
 W_FORM = dict(rhyme=0.40, syllable=0.25, meter=0.35)
 NOVELTY_FLOOR = 0.6                      # F = Q * (0.6 + 0.4 * N)
 
@@ -80,18 +72,17 @@ class Evaluator:
                 if u.source_idx == i:
                     typ_by[k] = lm.mean_logprob(u.token_lines) - self.rest_lm.mean_logprob(u.token_lines)
                     syn.append(slm.mean_logprob([self._classes(t) for t in u.token_lines]))
-        # TYPICALITY = category-vs-rest log-likelihood ratio (how much more it looks
-        # like THIS category than like the others). 0 = no preference. The threshold
-        # for 'typical enough' is learned: the 25th-percentile real poem of the
-        # category (leave-one-poem-out). Reaching it gives full marks (Ritchie's
-        # threshold idea, but data-driven instead of arbitrary).
+        # TYPICALITY = category-vs-rest log-likelihood ratio
         typ = [typ_by[k] for k in range(len(units))]
         self.ref_units, self.typ_ref = units, typ      # typ_ref is aligned with ref_units
         self.typ_low, self.typ_med = 0.0, percentile(typ, 0.50)
         self.typ_high = max(percentile(typ, 0.25), 0.05)
         self.f_mu, self.f_sd = self._stats([self._feats(u.token_lines) for u in units])
         self.l_mu, self.l_sd = self._stats([self._line_feats(t) for u in units for t in u.token_lines])
-        # Syntax / cohesion: 0 = 10th-percentile real poem, 1 = 90th.
+        self.f_lo, self.f_hi = self._band(
+            [self._zdist(self._feats(u.token_lines), self.f_mu, self.f_sd) for u in units])
+        self.l_lo, self.l_hi = self._band(
+            [self._zdist(self._line_feats(t), self.l_mu, self.l_sd) for u in units for t in u.token_lines])
         self.syn_low, self.syn_high = percentile(syn, 0.10), percentile(syn, 0.90)
         coh = [self._cohesion_raw(u.token_lines) for u in units]
         self.coh_low, self.coh_ref = percentile(coh, 0.10), max(percentile(coh, 0.90), 1e-6)
@@ -115,6 +106,11 @@ class Evaluator:
                 sum(len(w) for w in tl) / nw]
 
     @staticmethod
+    def _band(dists: List[float]):
+        lo = percentile(dists, 0.50)
+        return lo, max(percentile(dists, 0.95), lo + 0.25)
+
+    @staticmethod
     def _stats(rows: List[List[float]]):
         cols = list(zip(*rows))
         mu = [statistics.mean(c) for c in cols]
@@ -126,15 +122,17 @@ class Evaluator:
         return sum(abs((a - m) / s) for a, m, s in zip(x, mu, sd)) / len(x)
 
     @staticmethod
-    def _dist_to_score(d: float) -> float:
-        # a real poem sits ~0.8 sd from the centre on average -> full marks up to 0.8
-        return clip(1 - max(0.0, d - 0.8) / 1.6)
+    def _dist_to_score(d: float, lo: float, hi: float) -> float:
+        """1.0 if at least as typical as the median real poem, 0.0 at the 95th percentile."""
+        return clip(1 - (d - lo) / (hi - lo))
 
     def feature_typicality(self, tls: List[List[str]]) -> float:
-        return self._dist_to_score(self._zdist(self._feats(tls), self.f_mu, self.f_sd))
+        return self._dist_to_score(self._zdist(self._feats(tls), self.f_mu, self.f_sd),
+                                   self.f_lo, self.f_hi)
 
     def line_typicality(self, tl: List[str]) -> float:
-        return self._dist_to_score(self._zdist(self._line_feats(tl), self.l_mu, self.l_sd))
+        return self._dist_to_score(self._zdist(self._line_feats(tl), self.l_mu, self.l_sd),
+                                   self.l_lo, self.l_hi)
 
     @staticmethod
     def _classes(tl: List[str]) -> List[str]:
@@ -162,12 +160,12 @@ class Evaluator:
                 return 0.0
             pairs = [(0, 2), (1, 3), (4, 6), (5, 7), (8, 10), (9, 11), (12, 13)]
             return sum(is_rhyme(ends[a], ends[b]) for a, b in pairs) / len(pairs)
-        scores = []                                          # quatrain: per stanza
+        scores = []                                          
         for s in poem.stanzas:
             ends = [t[-1] for t in (tokenize(l) for l in s) if t]
             with_partner = sum(any(is_rhyme(e, o) for j, o in enumerate(ends) if j != i)
                                for i, e in enumerate(ends))
-            scores.append(clip(with_partner / 2))            # >=1 rhyming pair is full marks
+            scores.append(clip(with_partner / 2))            
         return sum(scores) / len(scores) if scores else 0.0
 
     def _syllable(self, poem: Poem) -> Optional[float]:
@@ -175,7 +173,7 @@ class Evaluator:
         regular, either one length throughout (8,8,8,8) or alternating (8,6,8,6)."""
         if self.category == "free_verse":
             return None
-        close = lambda s, t: 1 - min(1, abs(s - t) / 3)          # noqa: E731
+        close = lambda s, t: 1 - min(1, abs(s - t) / 3)          
         if self.category == "sonnet":
             sy = [line_syllables(t) for t in poem.token_lines]
             return sum(close(s, 10) for s in sy) / len(sy) if sy else 0.0
@@ -226,7 +224,7 @@ class Evaluator:
         tri = [tuple(t[i:i + 3]) for t in tls for i in range(len(t) - 2)]
         tri_nov = sum(g not in self.ngrams[3] for g in tri) / len(tri) if tri else 1.0
         covered = total = 0
-        for t in tls:                                   # words inside a copied >=4-gram
+        for t in tls:                                  
             mark = [False] * len(t)
             for i in range(len(t) - 3):
                 if tuple(t[i:i + 4]) in self.ngrams[4]:
@@ -246,7 +244,7 @@ class Evaluator:
         if rhyme is not None:
             m.update(rhyme=rhyme, syllable=syl, meter=met)
             m["form"] = sum(W_FORM[k] * m[k] for k in W_FORM)
-        m["category_llr"] = self.llr(poem.token_lines)       # reported, weak with this little data
+        m["category_llr"] = self.llr(poem.token_lines)       
         m["typicality"] = self.feature_typicality(poem.token_lines)
         coh_raw = self._cohesion_raw(poem.token_lines)
         m["cohesion_raw"] = coh_raw

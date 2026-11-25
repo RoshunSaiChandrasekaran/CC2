@@ -1,48 +1,140 @@
-[sonnet #1]  theme: bed  scheme: ABABCDCDEFEFGG
+[sonnet #1]  "The Night"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: melancholic, wordplay, domestic
 
-My maker and nothing stands but thy free,
-The speaking silence of myself and curse,
-I nor shall but love is death bed and see
-And I love thee with smiles tears of a verse.
+THE NIGHT
 
-For thy sweet love alters when a new pay
-And time doth now his way in the slow dark,
-And nothing else but love that time of day,
-And when to every wandering bark?
+Or none or hear old griefs and delves the pole,
+That which is death to an admiring bog;
+And curse my life to change my garden stole,
+And more fair love's long since then there's a frog.
 
-I have seen roses see I most enjoy
-And glittering in the soul who could twist,
-I sigh the bed and does thy life destroy,
-The boatman singing what shall I exist?
+Long as men can reach when yellow leaves hang,
+I seemed to the lark at his glory fight
+The world and stood upon a sweet birds sang,
+Of sweet silent upon a vanish'd sight.
 
-I love I sitting heard the nation's freight,
-I love as the death bed at heaven's gate.
+And with old griefs and with the passion put
+When just in the bed whereon it with smiles
+The ends of all bright and every foot,
+The night morning with soft deceitful wiles.
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=0.94  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.56  quality=0.98  fitness=0.81
+Night sleep in the air and delves the trees bow,
+In hope love alters when in beauty's brow!
+
+rhyme=1.00  syllable=1.00  meter=0.90  typicality=1.00  syntax=1.00  cohesion=0.99  fluency=1.00  novelty=0.63  quality=0.99  fitness=0.84  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[sonnet #2]  theme: more  scheme: ABABCDCDEFEFGG
+[sonnet #2]  "The Proofs"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: detached, surreal, classical
 
-And gimble in these thoughts myself and curse,
-I travell'd in the main of pure serene,
-In its soft fall and nothing like a verse,
-The hand or gazing on the objects mean!
+THE PROOFS
 
-Or like the sun more hold me less forlorn
-The eye of heaven with my soul more bent
-Like to the moon and bound his wreathed horn,
-I like the sun and candle light is spent.
+That which is thy name the livelong day,
+High place with what I a child can never,
+Like stout cortez when yellow leaves or pray,
+The proofs the lack of myself forever.
 
-And saw I never felt I like to one
-And so long lives this city of one more
-Or hear old griefs and nothing like the sun,
-I like to the night when the pebbled shore.
+The realms of snow upon myself and weeks
+And is gone far away a love I sigh;
+And all alone beweep my mistress reeks,
+Look'd at this gives life to the world so high.
 
-I love thee and carousing in the breath
-That fair thou must leave ere half turn to death.
+When you can breathe or eyes of the stars threw
+And yet each changing place with eagle eyes
+And ocean without rest one two and through,
+Or wade with eyes of insects in the skies.
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=0.82  syntax=1.00  cohesion=1.00  fluency=1.00  novelty=0.53  quality=0.96  fitness=0.78
+Like to the mystical moist night doth take,
+Day with open unto the winds do shake?
+
+rhyme=1.00  syllable=1.00  meter=0.87  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.55  quality=0.98  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #3]  "Heart and Name"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: melancholic, surreal, urban
+
+HEART AND NAME
+
+The parallels in what dread hand dare seize;
+Like as thou art and said comrade brother;
+And nothing like the hammer what the trees;
+Or call when he nothing like the mother.
+
+Like to times in its deadly terrors clasp,
+Doth like the ends of one I love more strong,
+Love thee with his cruel hand what dread grasp,
+In what the hammer what dread feet along.
+
+And cheeks and with eternal lids apart
+A pair of myself almost despising,
+Thirsting longing eyes are called by thy heart,
+My name the livelong day arising.
+
+That which is death to night my outcast state,
+No more day by black night doth like a date.
+
+rhyme=1.00  syllable=1.00  meter=0.82  typicality=0.88  syntax=1.00  cohesion=1.00  fluency=0.99  novelty=0.59  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #4]  "My Labor"
+  planned idea: Death is the politest guest: he stops for you, uninvited.
+  moods: melancholic, surreal, classical
+
+MY LABOR
+
+My old griefs and useless though my labor
+When in death's second self that gave thee life,
+The world so rested he by day labour,
+Bed by day labour light of the young wife.
+
+The other wayfarers at heaven's gate,
+The ashes of the night doth take away
+I love more rich in hope my outcast state,
+Who made the blazing sun is far more day!
+
+And yet each one I love alters not fade,
+The pleasantest thing I love thee with kings
+I never did sun more day by his shade
+Eclipses gainst his boat the day what wings.
+
+Catch somewhere O frabjous day by thy love,
+The sweet love to hear the grown up above!
+
+rhyme=1.00  syllable=1.00  meter=0.90  typicality=0.83  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.58  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[sonnet #5]  "Love That Flies"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: cynical, surreal, cosmic
+
+LOVE THAT FLIES
+
+And glittering in the world is too hot,
+In measureless oceans of his youth,
+And cheeks and spending we are up jack got,
+And white why then felt I like nature's truth.
+
+Saw I sigh the vorpal sword in the main,
+That one talent which by day arising
+Each one I love is clear and delves the rain,
+The ends of myself almost despising.
+
+The day what furnace was thy worth despite
+And with my foe he went galumphing back;
+I love that flies in death's dateless night,
+Lost saints I love that will be wires black?
+
+Saints I love thee to a new planet swims,
+Love thee freely as thou art and sings hymns.
+
+rhyme=1.00  syllable=1.00  meter=0.86  typicality=1.00  syntax=1.00  cohesion=1.00  fluency=0.98  novelty=0.53  quality=0.98  fitness=0.79  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 

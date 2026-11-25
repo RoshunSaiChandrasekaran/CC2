@@ -1,22 +1,115 @@
-[quatrain #1]  theme: see  scheme: ABCB
+[quatrain #1]  "In the Words"
+  planned idea: Death is the politest guest: he stops for you, uninvited.
+  moods: cynical, dry, dreamlike
 
-Long in the silent thought he stood
-The hand or bends with friends;
-The forests of eyes that vainly
-The leaves off work or bends.
+IN THE WORDS
 
-rhyme=1.00  syllable=1.00  meter=0.94  typicality=1.00  syntax=0.99  cohesion=0.23  fluency=1.00  novelty=0.71  quality=0.84  fitness=0.74
+Sweet joy but just ourselves,
+The stream o'er land and delves
+Or of the night morning glad
+The night air and yet to add.
+
+When in the fields of the birds
+The other way in the words
+Birds or at sundown or dart,
+Did sun more day by thy heart.
+
+rhyme=1.00  syllable=1.00  meter=0.88  typicality=1.00  syntax=0.93  cohesion=0.38  fluency=0.96  novelty=0.78  quality=0.79  fitness=0.72  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[quatrain #2]  theme: tell  scheme: ABAB
+[quatrain #2]  "The Night"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: melancholic, wordplay, domestic
 
-In the silence of a frog,
-The night morning glad I love,
-Come to an admiring bog,
-What the road wind up above.
+THE NIGHT
 
-rhyme=1.00  syllable=1.00  meter=1.00  typicality=1.00  syntax=1.00  cohesion=0.27  fluency=1.00  novelty=0.47  quality=0.85  fitness=0.67
+Bed whereon it must leave ere half
+When the air and his glory fight
+And home did gyre and I new pay,
+Yet did gyre and yet turning stay!
+
+Of love of cities fill'd with soft,
+That I get up above the chain,
+The speaking silence of such day,
+The day what wings dare frame thy brain.
+
+The day at night morning or wade,
+Night morning glad I all alone,
+I were the night morning with smiles
+The night morning or hear the grown.
+
+rhyme=1.00  syllable=1.00  meter=0.92  typicality=0.75  syntax=0.85  cohesion=0.56  fluency=0.92  novelty=0.66  quality=0.81  fitness=0.69  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[quatrain #3]  "Hand and Hammer"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: melancholic, wordplay, classical
+
+HAND AND HAMMER
+
+Dread hand what shall I all alone,
+The hand or none or hear the grown
+He by the hand or watch the mead
+The hammer what the hand or wade!
+
+The little we see in the while;
+Little we slowly drove he smile,
+And down and on little cat feet,
+Or of the thoughts myself and meet.
+
+rhyme=1.00  syllable=1.00  meter=0.92  typicality=0.48  syntax=0.76  cohesion=0.80  fluency=0.87  novelty=0.59  quality=0.83  fitness=0.69  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[quatrain #4]  "In the Night"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: melancholic, satirical, cosmic
+
+IN THE NIGHT
+
+To me every square yard,
+In columns before a verse,
+The morning glad I was shown,
+The morning or hear the grown.
+
+Twas brillig and all who come,
+Silence of the night a crumb
+All the night sleep in the sky,
+Come in the night a resting.
+
+What the forests of the girl,
+And with eagle eyes as bright
+The night air and what dread feet
+Up in death's dateless night.
+
+rhyme=1.00  syllable=1.00  meter=0.90  typicality=1.00  syntax=0.97  cohesion=0.48  fluency=0.98  novelty=0.50  quality=0.83  fitness=0.66  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[quatrain #5]  "The Ships"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: detached, wordplay, cosmic
+
+THE SHIPS
+
+In death's second self that door;
+The ships with men strive for right
+The ships with men can no more,
+He by far more red and white.
+
+In the tune without the depth,
+The whole long day arising
+I love or at all alone,
+Myself almost despising.
+
+And in death's dateless night
+Night the party of delight
+The night air and what dread feet
+Tyger burning bright and meet.
+
+rhyme=1.00  syllable=1.00  meter=0.93  typicality=1.00  syntax=1.00  cohesion=0.33  fluency=0.99  novelty=0.51  quality=0.79  fitness=0.64  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 

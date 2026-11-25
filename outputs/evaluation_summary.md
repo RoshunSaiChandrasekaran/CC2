@@ -9,90 +9,111 @@
 
 | condition | rhyme | syllable | meter | typicality | syntax | cohesion | fluency | novelty | quality | fitness |
 |---|---|---|---|---|---|---|---|---|---|---|
-| real | 0.79 (0.41) | 0.89 (0.10) | 0.98 (0.03) | 0.92 (0.14) | 0.76 (0.19) | 0.29 (0.34) | 0.87 (0.10) | - | 0.77 (0.09) | - |
-| baseline | 0.12 (0.33) | 0.59 (0.12) | 0.97 (0.03) | 0.46 (0.32) | 0.69 (0.17) | 0.06 (0.10) | 0.83 (0.09) | 0.33 (0.14) | 0.48 (0.10) | 0.35 (0.08) |
-| constrained | 1.00 (0.00) | 1.00 (0.00) | 0.98 (0.04) | 0.97 (0.07) | 0.76 (0.16) | 0.05 (0.06) | 0.86 (0.08) | 0.53 (0.14) | 0.77 (0.03) | 0.63 (0.05) |
-| full | 1.00 (0.00) | 1.00 (0.00) | 0.99 (0.02) | 0.99 (0.03) | 0.95 (0.08) | 0.19 (0.16) | 0.97 (0.04) | 0.72 (0.08) | 0.83 (0.04) | 0.74 (0.04) |
+| real | 0.78 (0.41) | 0.90 (0.10) | 0.94 (0.04) | 0.76 (0.33) | 0.74 (0.20) | 0.30 (0.35) | 0.87 (0.10) | - | 0.68 (0.13) | - |
+| salad | 0.00 (0.00) | 0.65 (0.07) | 0.87 (0.03) | 0.00 (0.00) | 1.00 (0.00) | 0.02 (0.03) | 0.93 (0.01) | 1.00 (0.00) | 0.36 (0.01) | 0.36 (0.01) |
+| shuffled | 0.05 (0.12) | 0.68 (0.07) | 0.92 (0.03) | 0.35 (0.38) | 0.79 (0.10) | 0.06 (0.05) | 0.89 (0.05) | 0.01 (0.01) | 0.43 (0.07) | 0.26 (0.04) |
+| baseline | 0.03 (0.10) | 0.61 (0.08) | 0.92 (0.03) | 0.21 (0.32) | 0.74 (0.13) | 0.05 (0.04) | 0.86 (0.07) | 0.29 (0.07) | 0.39 (0.05) | 0.28 (0.04) |
+| constrained | 1.00 (0.00) | 1.00 (0.00) | 0.93 (0.03) | 0.98 (0.08) | 0.72 (0.13) | 0.10 (0.08) | 0.85 (0.07) | 0.57 (0.08) | 0.69 (0.04) | 0.57 (0.03) |
+| full | 1.00 (0.00) | 1.00 (0.00) | 0.94 (0.02) | 0.96 (0.09) | 0.94 (0.06) | 0.43 (0.13) | 0.97 (0.03) | 0.57 (0.09) | 0.81 (0.04) | 0.67 (0.04) |
 
-Effect size on quality (Cohen's d): constrained vs baseline = 3.87, full vs constrained = 1.86.
-Diversity (mean pairwise word-set distance): baseline 0.93, constrained 0.92, full 0.89.
+Effect size on quality (Cohen's d): constrained vs baseline = 6.76, full vs constrained = 3.25.
+
+**Metric sanity check:** PASS: both negative controls score clearly below real poems.
+Win rates on quality: real > shuffled 95%, full > shuffled 100%, real > full 18%.
+Diversity (mean pairwise word-set distance): salad 0.98, shuffled 0.89, baseline 0.87, constrained 0.87, full 0.87.
 
 Example (full system):
 
 ```
-And I told my tears of space,
-In the road wind is high place
-Up jack and what shall I find,
-The grown up at the road wind.
+It the whole long day what dread hand,
+In sight of finished years,
+The thing to me when the trees bow,
+When just in beauty's brow.
+
+And when the slow dark secret love,
+Love of the day's journey,
+Love of the jabberwock my foe,
+Love that bares her speak low.
+
+The slow dark is an ever fixed,
+I love abide and meet,
+Sir I think my love of the rest
+Love of true account lest.
 ```
 
 ## sonnet
 
 | condition | rhyme | syllable | meter | typicality | syntax | cohesion | fluency | novelty | quality | fitness |
 |---|---|---|---|---|---|---|---|---|---|---|
-| real | 0.46 (0.31) | 0.91 (0.05) | 0.95 (0.03) | 0.96 (0.10) | 0.92 (0.11) | 0.40 (0.31) | 0.96 (0.06) | - | 0.77 (0.07) | - |
-| baseline | 0.01 (0.03) | 0.25 (0.09) | 0.90 (0.04) | 0.02 (0.07) | 0.95 (0.09) | 0.08 (0.12) | 0.96 (0.05) | 0.27 (0.06) | 0.34 (0.04) | 0.24 (0.03) |
-| constrained | 1.00 (0.00) | 1.00 (0.00) | 0.87 (0.04) | 0.96 (0.08) | 0.89 (0.12) | 0.18 (0.23) | 0.93 (0.06) | 0.52 (0.04) | 0.80 (0.05) | 0.64 (0.05) |
-| full | 1.00 (0.00) | 1.00 (0.00) | 0.95 (0.03) | 0.97 (0.05) | 1.00 (0.00) | 0.74 (0.20) | 1.00 (0.00) | 0.53 (0.06) | 0.93 (0.04) | 0.76 (0.04) |
+| real | 0.46 (0.31) | 0.91 (0.05) | 0.91 (0.03) | 0.74 (0.33) | 0.92 (0.11) | 0.39 (0.31) | 0.96 (0.06) | - | 0.68 (0.10) | - |
+| salad | 0.00 (0.02) | 0.29 (0.10) | 0.73 (0.05) | 0.00 (0.00) | 1.00 (0.00) | 0.03 (0.07) | 0.93 (0.01) | 1.00 (0.00) | 0.31 (0.02) | 0.31 (0.02) |
+| shuffled | 0.01 (0.04) | 0.48 (0.13) | 0.85 (0.05) | 0.03 (0.09) | 0.96 (0.10) | 0.05 (0.08) | 0.97 (0.05) | 0.01 (0.01) | 0.36 (0.04) | 0.22 (0.02) |
+| baseline | 0.01 (0.04) | 0.26 (0.08) | 0.83 (0.04) | 0.00 (0.00) | 0.94 (0.09) | 0.02 (0.04) | 0.96 (0.05) | 0.28 (0.06) | 0.32 (0.02) | 0.23 (0.02) |
+| constrained | 1.00 (0.00) | 1.00 (0.00) | 0.81 (0.04) | 0.75 (0.24) | 0.93 (0.10) | 0.20 (0.27) | 0.95 (0.05) | 0.52 (0.04) | 0.69 (0.09) | 0.56 (0.08) |
+| full | 1.00 (0.00) | 1.00 (0.00) | 0.88 (0.04) | 0.89 (0.12) | 1.00 (0.00) | 0.99 (0.04) | 0.99 (0.01) | 0.56 (0.05) | 0.96 (0.02) | 0.79 (0.03) |
 
-Effect size on quality (Cohen's d): constrained vs baseline = 9.74, full vs constrained = 2.86.
-Diversity (mean pairwise word-set distance): baseline 0.86, constrained 0.84, full 0.84.
+Effect size on quality (Cohen's d): constrained vs baseline = 5.35, full vs constrained = 4.06.
+
+**Metric sanity check:** PASS: both negative controls score clearly below real poems.
+Win rates on quality: real > shuffled 100%, full > shuffled 100%, real > full 0%.
+Diversity (mean pairwise word-set distance): salad 0.96, shuffled 0.87, baseline 0.86, constrained 0.84, full 0.83.
 
 Example (full system):
 
 ```
-In the silence at the winds that man's scope;
-Of that seals up jack got and kingdoms seen
-And nothing like the sun more rich in hope
-The little we have sight of pure serene.
+The road wind up all losses are restored
+And candle light is spread with that which goes,
+That man's work or birds or his vorpal sword
+Else swoon to time that catch somewhere O rose.
 
-In me count the night morning with my face,
-And bright star would I sigh the world is heard,
-The moving waters at each changing place
-In the main of us late the little bird.
+To add divide and on the horses heads,
+In the breath that it alteration finds
+Gives life to the winds that will need be beds,
+The silence of the questions of true minds.
 
-In this dark and the little lamb god bless
-He calls himself a little lamb god choose
-The world is kingly thousands at recess,
-I have seen roses see I seemed to lose.
+In the silence of soul who come to hide,
+Come with my wrath did sun more rich in hope,
+And to the speaking silence of one wide
+From art the day at night with that man's scope?
 
-Or of the vorpal sword in hand dare seize,
-Or of the sundown or watch honey bees.
+As thou art more rich in his glory fight
+A love more rich in death's dateless night.
 ```
 
 ## free_verse
 
 | condition | typicality | syntax | cohesion | fluency | novelty | quality | fitness |
 |---|---|---|---|---|---|---|---|
-| real | 0.90 (0.08) | 0.54 (0.24) | 0.36 (0.36) | 0.76 (0.13) | - | 0.71 (0.09) | - |
-| baseline | 0.99 (0.02) | 0.43 (0.16) | 0.12 (0.12) | 0.70 (0.09) | 0.26 (0.07) | 0.67 (0.05) | 0.47 (0.04) |
-| constrained | 0.98 (0.04) | 0.41 (0.18) | 0.13 (0.14) | 0.70 (0.09) | 0.48 (0.10) | 0.67 (0.06) | 0.53 (0.06) |
-| full | 1.00 (0.01) | 0.94 (0.06) | 0.64 (0.27) | 0.97 (0.03) | 0.49 (0.08) | 0.90 (0.07) | 0.71 (0.05) |
+| real | 0.80 (0.24) | 0.54 (0.24) | 0.37 (0.37) | 0.76 (0.13) | - | 0.62 (0.14) | - |
+| salad | 0.00 (0.00) | 0.99 (0.02) | 0.09 (0.09) | 0.92 (0.02) | 1.00 (0.00) | 0.36 (0.04) | 0.36 (0.04) |
+| shuffled | 1.00 (0.00) | 0.33 (0.13) | 0.11 (0.09) | 0.66 (0.07) | 0.01 (0.02) | 0.52 (0.04) | 0.32 (0.03) |
+| baseline | 1.00 (0.00) | 0.41 (0.13) | 0.13 (0.13) | 0.69 (0.07) | 0.28 (0.07) | 0.54 (0.06) | 0.39 (0.04) |
+| constrained | 0.98 (0.07) | 0.47 (0.13) | 0.21 (0.15) | 0.73 (0.07) | 0.49 (0.08) | 0.59 (0.08) | 0.47 (0.06) |
+| full | 1.00 (0.00) | 0.83 (0.13) | 0.97 (0.11) | 0.91 (0.07) | 0.51 (0.07) | 0.96 (0.05) | 0.77 (0.05) |
 
-Effect size on quality (Cohen's d): constrained vs baseline = -0.06, full vs constrained = 3.57.
-Diversity (mean pairwise word-set distance): baseline 0.89, constrained 0.90, full 0.89.
+Effect size on quality (Cohen's d): constrained vs baseline = 0.64, full vs constrained = 5.76.
+
+**Metric sanity check:** Shuffled score within 0.15 of real poems, so 'quality' cannot tell them apart.
+Win rates on quality: real > shuffled 70%, full > shuffled 100%, real > full 1%.
+Diversity (mean pairwise word-set distance): salad 0.96, shuffled 0.88, baseline 0.87, constrained 0.87, full 0.85.
 
 Example (full system):
 
 ```
-A man said comrade brother,
-Watch the slow dark and height
-Ne'er saw a man ever renew'd,
-Coral is far more beautifully steep,
-And saw a man,
-And temples lie,
-Tool maker and present,
-The sea is a vestige of the air.
+Or eye unused to the nation's freight handler,
+I hear america singing his as long time the rest,
+The darkness and diagrams to time,
+When the lesson done.
+
+Of labour light denied,
+Or birds or the powerful play,
+Or birds sang
+Gave doth now like sleeping flowers.
+
+What art the day
+The day at night air and in its soft deceitful wiles,
+Night sleep death and so quiet and bright
+That mighty heart began to night my childhood's faith.
+
+And dark hours begin.
 ```
-
-## How to read this (and its limits)
-
-* The metrics are **automatic proxies**. Typicality and cohesion are calibrated on the real poems
-  (leave-one-poem-out), so 'typical enough' is learned from the inspiring set, not set by hand.
-* Some components (syntax, typicality, meter, cohesion) are also used by the generator to pick
-  lines and poems, so `full` is partly graded on what it optimised. The honest check is the
-  independent **human evaluation** (`src/human_eval.py`) and the readability of the examples.
-* Typicality here is feature-based (line length, function-word ratio, word length, variety) because
-  a word-bigram likelihood ratio could not separate the categories out-of-sample with so few poems.
-* Cohesion is a weak proxy (word co-occurrence inside the corpus); coherence between lines is the
-  known weakness of Markov generation and the numbers should be read that way.

@@ -1,30 +1,133 @@
-[free_verse #1]  theme: every  scheme: -
+[free_verse #1]  "The Astronomer"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: playful, surreal, classical
 
-And dark is a continual miracle,
-Every square yard of space is kingly thousands at grievances foregone
-Every square yard of space,
-And sick,
-And delves the tulgey wood
-When the surface of the horizon,
-Or birds sang,
-I sing the nation's freight handler.
+THE ASTRONOMER
 
-typicality=1.00  syntax=0.94  cohesion=0.79  fluency=0.97  novelty=0.37  quality=0.94  fitness=0.70
+Or leaves off work,
+The boatman singing on a little cat feet,
+Each one singing on the ground,
+Look'd up above the world.
+
+The world is futile I never did trot,
+That seemed to apollo hold,
+I heard the fields,
+The learn'd astronomer.
+
+I sitting heard
+Night sleep death and it sits looking
+Night sleep in the struggle ever renew'd
+Or birds or eye of the stars.
+
+The day at night morning with eagle eyes;
+To night sleep death
+I sigh the night
+What immortal hand.
+
+typicality=1.00  syntax=0.81  cohesion=1.00  fluency=0.90  novelty=0.61  quality=0.97  fitness=0.81  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
-[free_verse #2]  theme: more  scheme: -
+[free_verse #2]  "More Strong"
+  planned idea: Death is the politest guest: he stops for you, uninvited.
+  moods: melancholic, wordplay, domestic
 
-Yet never saw below many devils
-And summer's day
-The delicious singing what good amid these with the foolish;
-I saw below many devils,
-The delicious singing of nothing else but love more fair
-Ere half turn to the universe;
-I saw below many warm
-And delves the wordless.
+MORE STRONG
 
-typicality=1.00  syntax=0.96  cohesion=0.29  fluency=0.98  novelty=0.55  quality=0.82  fitness=0.67
+The delicious singing of itself
+To love more strong,
+In the breath,
+So live ever renew'd.
+
+Then you show more fair
+I love more day by yellow leaves off work,
+O my love more strong
+Whether I love thee.
+
+And nothing like the sun,
+I love as rare,
+Night sleep death to hide
+Consumed with that from art the day at night sleep death.
+
+Shall I meet other way,
+The roof so sad recurring what art,
+And nothing stands,
+Sweet birds or the fields and brown paper.
+
+typicality=1.00  syntax=0.76  cohesion=1.00  fluency=0.88  novelty=0.59  quality=0.96  fitness=0.80  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #3]  "Miracle"
+  planned idea: Being oneself is hard when several selves compete for the name.
+  moods: cynical, surreal, classical
+
+MIRACLE
+
+Like a miracle,
+Every foot of eyes of heaven shines
+A miracle,
+And sweetest in the lamb god choose!
+
+To tell o'er,
+Or watch the slow dark secret love,
+And gliding out of eyes,
+Come back to none else.
+
+And his dark hours begin
+I like the sun more beautifully steep,
+It launch'd forth filament out of tune,
+I'm nobody who more foolish.
+
+typicality=1.00  syntax=0.97  cohesion=0.77  fluency=0.98  novelty=0.64  quality=0.90  fitness=0.77  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #4]  "The Stars"
+  planned idea: Time is a creditor: we spend our days and still owe.
+  moods: detached, surreal, domestic
+
+THE STARS
+
+And carousing in the lecture room;
+In his gift confound,
+In the mome raths outgrabe,
+And yet by black night the party of the air.
+
+Tyger burning bright,
+Night sleep death to hide
+Night sleep death and home did trot,
+And round they will be late the themes thou art sick?
+
+Up in the bed and see;
+Night morning with railroads and the stars!
+
+typicality=1.00  syntax=0.78  cohesion=0.97  fluency=0.89  novelty=0.50  quality=0.95  fitness=0.76  checks_passed=4.00  stop_ok=1.00
+
+------------------------------------------------------------
+
+[free_verse #5]  "Stars and Silence"
+  planned idea: The more we measure the world, the less of it we see.
+  moods: melancholic, satirical, cosmic
+
+STARS AND SILENCE
+
+When I heard the wordless
+I love abide and meet other wayfarers at heaven's gate
+The carpenter singing on the horizon
+I stood isolated.
+
+Nor shall but love thee purely as in uffish thought
+And sick;
+Till the silence at the stars
+Till the stars.
+
+To night air and gliding out loud and bold
+Night morning with my friend,
+Or eye of the night
+Sir I have no more day at night air and from art the breath.
+
+typicality=1.00  syntax=0.64  cohesion=1.00  fluency=0.82  novelty=0.48  quality=0.94  fitness=0.74  checks_passed=4.00  stop_ok=1.00
 
 ------------------------------------------------------------
 
