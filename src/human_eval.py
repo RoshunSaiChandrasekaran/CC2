@@ -1,17 +1,3 @@
-"""Blind human-evaluation kit (independent of the automatic metrics).
-
-1) Make a sheet: real poems, baseline poems and full-system poems, shuffled and
-   anonymised. Every group member rates their own copy.
-
-       python3 src/human_eval.py make --n 4 --seed 1
-
-   -> outputs/human_eval_sheet.csv   (give each rater a copy: sheet_roshun.csv, ...)
-   -> outputs/human_eval_key.csv     (id -> source; DO NOT show raters)
-
-2) Fill the five rating columns (1-5; last column yes/no), then analyse:
-
-       python3 src/human_eval.py analyze --ratings outputs/sheet_roshun.csv outputs/sheet_nithin.csv outputs/sheet_melisa.csv
-"""
 import argparse
 import csv
 import os
