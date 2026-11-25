@@ -7,15 +7,6 @@ Positioning (from the NLG lecture): Markov chains sit at the _simple_ end of the
 (templates, grammars, Markov chains, ... neural networks). So the engineering is kept deliberately plain and the
 weight of the project is on **how good the poems actually are** (see Evaluation).
 
-## Status
-
-| Deliverable                            | Status                                       |
-| -------------------------------------- | -------------------------------------------- |
-| Inspiring set (42 poems, 3 categories) | Done: `inspiring_set.json`                   |
-| Generator                              | Done: `src/`                                 |
-| Evaluation (automatic + human kit)     | Done: `src/evaluate.py`, `src/human_eval.py` |
-| GenAI-assisted presentation of 3 poems | Not started                                  |
-| ICCC report                            | Not started                                  |
 
 ## Install and run
 
@@ -35,8 +26,7 @@ idea where possible) and a title.
 
 | File                 | What it does                                                                                                                                                                             |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `inspiring_set.json` | 42 public-domain poems (18 quatrain, 13 sonnet, 11 free verse). Blank line = stanza break. Every poem was compared word by word with a published text; each carries a `source` field. |
-| `SOURCES.md`         | Table of all 42 poems with the pages used, the edition and known textual variants (cite this in the report). |
+| `inspiring_set.json` | 42 public-domain poems (18 quatrain, 13 sonnet, 11 free verse). Blank line = stanza break. |
 | `src/planner.py`     | Plans a poem before it is written: a premise (idea), moods, imagery, a role per stanza (introduction ... reversal, ending) and the stop checks a finished poem must pass. |
 | `src/titler.py`      | Gives each generated poem a short title built from words of the poem itself (see below). |
 | `src/phonetics.py`   | Tokeniser, syllables, stress, rhyme test and meter fit (CMU dictionary).                                                                                                                 |
