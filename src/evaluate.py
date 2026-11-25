@@ -1,15 +1,3 @@
-"""Evaluation experiment: how good are the poems, and what do the constraints buy us?
-
-Four conditions per category (same corpus, same metrics):
-  real          the real poems of the inspiring set (reference / upper bound)
-  baseline      plain Markov chain: no rhyme, no meter, no filtering, no ranking
-  constrained   rhyme + meter + line filtering, but NO ranking (first valid candidates)
-  full          the complete system (constraints + line scoring + poem ranking)
-
-    python3 src/evaluate.py --n 40 --pool 10 --seed 7
-
-Writes outputs/evaluation_summary.md, evaluation_poems.csv, evaluation_profile.png
-"""
 import argparse
 import csv
 import os
@@ -19,13 +7,13 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 from planner import make_plan
-import matplotlib                                               # noqa: E402
+import matplotlib                                               
 matplotlib.use("Agg")
-import matplotlib.pyplot as plt                                 # noqa: E402
+import matplotlib.pyplot as plt                                 
 
-from generator import GenConfig, PoemGenerator                  # noqa: E402
-from lm import Associations, Corpus, Poem                       # noqa: E402
-from metrics import Evaluator, cohens_d, diversity, summarise   # noqa: E402
+from generator import GenConfig, PoemGenerator                  
+from lm import Associations, Corpus, Poem                       
+from metrics import Evaluator, cohens_d, diversity, summarise   
 
 CATS = ["quatrain", "sonnet", "free_verse"]
 PROFILE = ["rhyme", "syllable", "meter", "typicality", "syntax", "cohesion", "fluency", "novelty", "quality"]
@@ -123,7 +111,7 @@ def main():
                 f"{s[k][0]:.2f} ({s[k][1]:.2f})" if k in s else "-" for k in keys) + " |")
             for p, m in zip(*data[c]):
                 rows_csv.append({"category": cat, "condition": c, "text": p.text().replace("\n", " / "), **m})
-        q = lambda c: [m["quality"] for m in data[c][1]]      # noqa: E731
+        q = lambda c: [m["quality"] for m in data[c][1]]      
         md.append(f"\nEffect size on quality (Cohen's d): constrained vs baseline = "
                   f"{cohens_d(q('constrained'), q('baseline')):.2f}, "
                   f"full vs constrained = {cohens_d(q('full'), q('constrained')):.2f}.")
